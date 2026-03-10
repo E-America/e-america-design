@@ -479,12 +479,18 @@
                   "type": "frame",
                   "id": "LQXh5",
                   "name": "Map",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "anthonyjames_f8",
+                    "link": "https://unsplash.com/@anthonyjames_f8",
+                    "author": "James Smith"
+                  },
                   "width": "fill_container",
                   "height": 1000,
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "./images/screenshot.png",
+                    "url": "https://images.unsplash.com/photo-1756507175997-7dfc3ff3b353?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMxMjA1NDZ8&ixlib=rb-4.1.0&q=80&w=1080",
                     "mode": "fill"
                   },
                   "cornerRadius": 12,
@@ -5220,7 +5226,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "./assets/profile-picture.png",
+                        "url": "image-2.png",
                         "mode": "fill"
                       },
                       "cornerRadius": 1000
@@ -7906,7 +7912,7 @@
                     {
                       "type": "image",
                       "enabled": true,
-                      "url": "./images/image.png",
+                      "url": "image-2.png",
                       "mode": "fill"
                     }
                   ],
@@ -8765,7 +8771,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "./images/generated-1773105092290.png",
+                            "url": "./images/generated-1773120413317.png",
                             "mode": "fill"
                           },
                           "cornerRadius": 8
@@ -8931,7 +8937,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "./images/generated-1773105085628.png",
+                            "url": "./images/generated-1773120409986.png",
                             "mode": "fill"
                           },
                           "cornerRadius": 8
@@ -9414,12 +9420,18 @@
               "type": "frame",
               "id": "grUnd",
               "name": "Map Container",
+              "metadata": {
+                "type": "unsplash",
+                "username": "orbisterrae",
+                "link": "https://unsplash.com/@orbisterrae",
+                "author": "Gaël Gaborel - OrbisTerrae"
+              },
               "width": 1152,
               "height": 800,
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "./images/screenshot.png",
+                "url": "image-3.png",
                 "mode": "fill"
               },
               "cornerRadius": 12,
