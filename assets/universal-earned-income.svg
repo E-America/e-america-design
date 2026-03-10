@@ -1,0 +1,26 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="70" cy="70" r="70" fill="white"/>
+<!-- Dollar sign with circular arrows representing earned income flow -->
+<g id="uei-icon">
+  <!-- Circular arrows -->
+  <path d="M70 25 C90 25, 105 40, 105 60" stroke="#60B7FF" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <polygon points="105,60 100,55 110,60 100,65" fill="#60B7FF"/>
+
+  <path d="M70 115 C50 115, 35 100, 35 80" stroke="#26A6FE" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <polygon points="35,80 40,85 30,80 40,75" fill="#26A6FE"/>
+
+  <!-- Dollar sign -->
+  <path d="M70 35 L70 45" stroke="#BBEC6C" stroke-width="5" stroke-linecap="round"/>
+  <path d="M70 95 L70 105" stroke="#BBEC6C" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- S shape -->
+  <path d="M60 50 C60 45, 65 42, 70 42 C75 42, 80 45, 80 50 C80 55, 75 58, 70 60 C65 62, 60 65, 60 70 C60 75, 65 78, 70 78 C75 78, 80 75, 80 70"
+        stroke="#A2E62E" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Coins -->
+  <circle cx="45" cy="55" r="8" fill="#FFD700" opacity="0.7"/>
+  <circle cx="95" cy="85" r="8" fill="#FFD700" opacity="0.7"/>
+  <circle cx="50" cy="90" r="6" fill="#FFA500" opacity="0.6"/>
+  <circle cx="90" cy="50" r="6" fill="#FFA500" opacity="0.6"/>
+</g>
+</svg>

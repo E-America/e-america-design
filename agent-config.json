@@ -1,0 +1,44 @@
+[
+  {
+    "file": "pencil/e-america.pen",
+    "prompt": "You are refining the LANDING PAGE screen (frame ID: 3R94D, named 'Landing Page'). This frame already exists in the file with a rough structure. Your job is to make it PIXEL PERFECT matching the production site. Delete everything inside the frame and rebuild it from scratch using the exact specs in the attached prompt file. The frame is 1440px wide. Use images from the pencil/assets/ folder (relative paths like pencil/assets/hero-background.png). Read the attached landing.md for exact colors, fonts, padding, text content, and layout specifications. Every measurement must match exactly.",
+    "model": "claude-sonnet-4-5",
+    "attachments": ["pencil/prompts/landing.md", "pencil/reference/landing-full.png"]
+  },
+  {
+    "file": "pencil/e-america.pen",
+    "prompt": "You are refining the DASHBOARD screen (frame ID: FiRTD, named 'Dashboard'). This frame already exists in the file with a rough structure. Your job is to make it PIXEL PERFECT matching the production site. Delete everything inside the frame and rebuild it from scratch using the exact specs in the attached prompt file. The frame is 1440px wide. Use images from the pencil/assets/ folder (relative paths like pencil/assets/logo.png). Read the attached dashboard.md for exact colors, fonts, padding, text content, and layout specifications. Every measurement must match exactly.",
+    "model": "claude-sonnet-4-5",
+    "attachments": ["pencil/prompts/dashboard.md"]
+  },
+  {
+    "file": "pencil/e-america.pen",
+    "prompt": "You are refining the PASSPORT PAGE screen (frame ID: zbaSF, named 'Passport Page'). This frame already exists in the file with a rough structure. Your job is to make it PIXEL PERFECT matching the production site. Delete everything inside the frame and rebuild it from scratch using the exact specs in the attached prompt file. The frame is 1440px wide. Use images from the pencil/assets/ folder (relative paths like pencil/assets/passport-image.png). Read the attached passport.md for exact colors, fonts, padding, text content, and layout specifications.",
+    "model": "claude-sonnet-4-5",
+    "attachments": ["pencil/prompts/passport.md"]
+  },
+  {
+    "file": "pencil/e-america.pen",
+    "prompt": "You are refining the DIRECTORY screen (frame ID: mvg22, named 'Directory'). This frame already exists in the file with a rough structure. Your job is to make it PIXEL PERFECT matching the production site. Delete everything inside the frame and rebuild it from scratch using the exact specs in the attached prompt file. The frame is 1440px wide. Use images from the pencil/assets/ folder. Read the attached directory.md for exact colors, fonts, padding, text content, and layout specifications.",
+    "model": "claude-sonnet-4-5",
+    "attachments": ["pencil/prompts/directory.md"]
+  },
+  {
+    "file": "pencil/e-america.pen",
+    "prompt": "You are refining the MEMBER PROFILE screen (frame ID: fwmGC, named 'Member Profile'). This frame already exists in the file with a rough structure. Your job is to make it PIXEL PERFECT matching the production site. Delete everything inside the frame and rebuild it from scratch using the exact specs in the attached prompt file. The frame is 1440px wide. Use images from the pencil/assets/ folder. Read the attached profile.md for exact colors, fonts, padding, text content, and layout specifications.",
+    "model": "claude-sonnet-4-5",
+    "attachments": ["pencil/prompts/profile.md"]
+  },
+  {
+    "file": "pencil/e-america.pen",
+    "prompt": "You are refining the EVENTS screen (frame ID: Y1Wo7, named 'Events'). This frame already exists in the file with a rough structure. Your job is to make it PIXEL PERFECT matching the production site. Delete everything inside the frame and rebuild it from scratch using the exact specs in the attached prompt file. The frame is 1440px wide. Use images from the pencil/assets/ folder. Read the attached events.md for exact colors, fonts, padding, text content, and layout specifications.",
+    "model": "claude-sonnet-4-5",
+    "attachments": ["pencil/prompts/events.md"]
+  },
+  {
+    "file": "pencil/e-america.pen",
+    "prompt": "You are refining the APPLY PAGE screen (frame ID: lQ6Y4, named 'Apply Page'). This frame already exists in the file with a rough structure. Your job is to make it PIXEL PERFECT matching the production site. Delete everything inside the frame and rebuild it from scratch using the exact specs in the attached prompt file. The frame is 1440px wide. Use images from the pencil/assets/ folder. Read the attached apply.md for exact colors, fonts, padding, text content, and layout specifications.",
+    "model": "claude-sonnet-4-5",
+    "attachments": ["pencil/prompts/apply.md"]
+  }
+]
