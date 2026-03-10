@@ -29,7 +29,7 @@
                 {
                   "type": "image",
                   "enabled": true,
-                  "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/hero-background.png",
+                  "url": "./assets/hero-background.png",
                   "mode": "fill"
                 },
                 {
@@ -89,7 +89,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/logo.png",
+                              "url": "./assets/logo.png",
                               "mode": "fit"
                             }
                           ]
@@ -377,7 +377,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/arrow-icon.png",
+                            "url": "./assets/arrow-icon.png",
                             "mode": "fit"
                           }
                         }
@@ -484,7 +484,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "Screenshot 2026-03-10 at 12.12.59.png",
+                    "url": "./images/screenshot.png",
                     "mode": "fill"
                   },
                   "cornerRadius": 12,
@@ -651,7 +651,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/image-import-3.png",
+                        "url": "./assets/digital-experiment-1.png",
                         "mode": "fill"
                       },
                       "width": 868.0260009765625,
@@ -683,7 +683,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/image-import-22.png",
+                        "url": "./assets/digital-experiment-2.png",
                         "mode": "fill"
                       },
                       "width": 868.7138671875,
@@ -804,7 +804,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/incorporate-companies.png",
+                              "url": "./assets/incorporate-companies.png",
                               "mode": "fit"
                             }
                           ],
@@ -847,7 +847,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/e-residency-certificate.png",
+                              "url": "./assets/e-residency-certificate.png",
                               "mode": "fit"
                             }
                           ],
@@ -1194,7 +1194,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/verify-identity.png",
+                              "url": "./assets/verify-identity.png",
                               "mode": "fit"
                             }
                           ],
@@ -1246,7 +1246,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/alternative-credit-scoring.png",
+                              "url": "./assets/alternative-credit-scoring.png",
                               "mode": "fit"
                             }
                           ],
@@ -1289,7 +1289,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/digital-dashboard.png",
+                              "url": "./assets/digital-dashboard.png",
                               "mode": "fit"
                             }
                           ],
@@ -1332,7 +1332,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/insurance.png",
+                              "url": "./assets/insurance.png",
                               "mode": "fit"
                             }
                           ],
@@ -1375,7 +1375,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/vote.png",
+                              "url": "./assets/vote.png",
                               "mode": "fit"
                             }
                           ],
@@ -1427,7 +1427,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/universal-earned-income.png",
+                              "url": "./assets/universal-earned-income.png",
                               "mode": "fit"
                             }
                           ],
@@ -1470,7 +1470,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/bitcoin-treasury.png",
+                              "url": "./assets/bitcoin-treasury.png",
                               "mode": "fit"
                             }
                           ],
@@ -1513,7 +1513,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/digital-dashboard.png",
+                              "url": "./assets/digital-dashboard.png",
                               "mode": "fit"
                             }
                           ],
@@ -1556,7 +1556,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/achievement.png",
+                              "url": "./assets/achievement.png",
                               "mode": "fit"
                             }
                           ],
@@ -1934,7 +1934,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/community/community-group.jpg",
+                              "url": "./assets/community/community-group.jpg",
                               "mode": "fill"
                             }
                           ],
@@ -1960,7 +1960,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/community/community-activity.jpg",
+                              "url": "./assets/community/community-activity.jpg",
                               "mode": "fill"
                             }
                           ],
@@ -1985,7 +1985,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/community/community-fun.jpg",
+                              "url": "./assets/community/community-fun.jpg",
                               "mode": "fill"
                             }
                           ],
@@ -2104,7 +2104,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "images/image-import-1.png",
+                    "url": "./assets/passport-image.png",
                     "mode": "fill"
                   },
                   "width": 381,
@@ -2917,7 +2917,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/image-import-19.png",
+                        "url": "./assets/treasury-image.png",
                         "mode": "fill"
                       },
                       "width": 638.9999389648438,
@@ -3894,7 +3894,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "images/image-import-12.png",
+                    "url": "./assets/constitution-image.png",
                     "mode": "fill"
                   },
                   "width": 532,
@@ -4627,7 +4627,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/logo.png",
+                "url": "./assets/logo.png",
                 "mode": "fit"
               }
             }
@@ -4874,7 +4874,7 @@
                 {
                   "type": "image",
                   "enabled": true,
-                  "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/logo.png",
+                  "url": "./assets/logo.png",
                   "mode": "fit"
                 }
               ]
@@ -5639,7 +5639,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/incorporate-companies.png",
+                            "url": "./assets/incorporate-companies.png",
                             "mode": "fit"
                           }
                         },
@@ -5703,7 +5703,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/e-residency-certificate.png",
+                            "url": "./assets/e-residency-certificate.png",
                             "mode": "fit"
                           }
                         },
@@ -6096,7 +6096,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/verify-identity.png",
+                            "url": "./assets/verify-identity.png",
                             "mode": "fit"
                           }
                         },
@@ -6169,7 +6169,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/alternative-credit-scoring.png",
+                            "url": "./assets/alternative-credit-scoring.png",
                             "mode": "fit"
                           }
                         },
@@ -6233,7 +6233,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/digital-dashboard.png",
+                            "url": "./assets/digital-dashboard.png",
                             "mode": "fit"
                           }
                         },
@@ -6297,7 +6297,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/achievement.png",
+                            "url": "./assets/achievement.png",
                             "mode": "fit"
                           }
                         },
@@ -6398,7 +6398,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/insurance.png",
+                                "url": "./assets/insurance.png",
                                 "mode": "fit"
                               }
                             },
@@ -6509,7 +6509,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/vote.png",
+                                "url": "./assets/vote.png",
                                 "mode": "fit"
                               }
                             },
@@ -7334,7 +7334,7 @@
           "type": "image",
           "opacity": 0.93,
           "enabled": true,
-          "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/passport-bg-2.png",
+          "url": "./assets/passport-bg-2.png",
           "mode": "fill"
         }
       ],
@@ -7361,7 +7361,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/logo.png",
+                "url": "./assets/logo.png",
                 "mode": "fit"
               }
             }
@@ -7665,7 +7665,7 @@
                 {
                   "type": "image",
                   "enabled": true,
-                  "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/logo.png",
+                  "url": "./assets/logo.png",
                   "mode": "fit"
                 }
               ]
@@ -7906,7 +7906,7 @@
                     {
                       "type": "image",
                       "enabled": true,
-                      "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/image.png",
+                      "url": "./images/image.png",
                       "mode": "fill"
                     }
                   ],
@@ -8267,7 +8267,7 @@
                 {
                   "type": "image",
                   "enabled": true,
-                  "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/logo.png",
+                  "url": "./assets/logo.png",
                   "mode": "fit"
                 }
               ]
@@ -9204,7 +9204,7 @@
                 {
                   "type": "image",
                   "enabled": true,
-                  "url": "/Users/adamjanes/brain/repos/e-america/e-america-frontend/pencil/assets/logo.png",
+                  "url": "./assets/logo.png",
                   "mode": "fit"
                 }
               ]
@@ -9419,7 +9419,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "Screenshot 2026-03-10 at 12.12.59.png",
+                "url": "./images/screenshot.png",
                 "mode": "fill"
               },
               "cornerRadius": 12,
