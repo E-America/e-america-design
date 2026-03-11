@@ -4,11 +4,12 @@
     {
       "type": "frame",
       "id": "aCk2C",
-      "x": 6503,
+      "x": 6476,
       "y": -3912,
       "name": "e-America Landing Page",
       "clip": true,
       "width": 1737,
+      "height": 11340,
       "fill": "#FFFFFF",
       "layout": "vertical",
       "children": [
@@ -519,6 +520,73 @@
         },
         {
           "type": "frame",
+          "id": "oTQvX",
+          "name": "aboutSection",
+          "width": "fill_container",
+          "height": 1024,
+          "fill": "#03112dff",
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            0,
+            0,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "i53Yc",
+              "name": "Frame 22",
+              "width": 1149,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PTcVD",
+                  "name": "A Digital Experiment in Freedom",
+                  "fill": "#ffffff",
+                  "textGrowth": "fixed-width-height",
+                  "width": "fill_container",
+                  "height": 100,
+                  "content": "America's entrepreneurial spirit, borderless.",
+                  "lineHeight": 0.6,
+                  "textAlign": "center",
+                  "textAlignVertical": "middle",
+                  "fontFamily": "Ubuntu",
+                  "fontSize": 40,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "VIiAa",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./assets/community/video_mockup_1",
+                "mode": "fill"
+              },
+              "width": 1433,
+              "height": 688
+            }
+          ]
+        },
+        {
+          "type": "frame",
           "id": "wPqkB",
           "name": "aboutSection",
           "width": "fill_container",
@@ -539,75 +607,61 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "YOI2E",
-              "name": "Frame 22",
-              "width": 1149,
-              "stroke": {
-                "align": "inside",
-                "thickness": 1
-              },
-              "layout": "vertical",
-              "gap": 8,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "23quL",
-                  "name": "🇺🇸 e-AMERICA",
-                  "fill": "#0b1e46ff",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "🇺🇸 e-AMERICA",
-                  "textAlign": "center",
-                  "fontFamily": "Ubuntu",
-                  "fontSize": 24,
-                  "fontWeight": "500"
+              "type": "text",
+              "id": "m78jz",
+              "name": "🇺🇸 e-AMERICA",
+              "fill": "#0b1e46ff",
+              "textGrowth": "fixed-width-height",
+              "width": "fill_container",
+              "height": 12,
+              "content": "e-AMERICA",
+              "textAlign": "center",
+              "fontFamily": "Ubuntu",
+              "fontSize": 24,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "BZnl0",
+              "name": "A Digital Experiment in Freedom",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": -445.6571491675639,
+                "size": {
+                  "height": 0.6800453507719172
                 },
-                {
-                  "type": "text",
-                  "id": "u4r9J",
-                  "name": "A Digital Experiment in Freedom",
-                  "fill": {
-                    "type": "gradient",
-                    "gradientType": "linear",
-                    "enabled": true,
-                    "rotation": -445.6571491675639,
-                    "size": {
-                      "height": 0.6800453507719172
-                    },
-                    "colors": [
-                      {
-                        "color": "#0b1e46ff",
-                        "position": 0
-                      },
-                      {
-                        "color": "#896580ff",
-                        "position": 0.4423076808452606
-                      },
-                      {
-                        "color": "#da1e3fff",
-                        "position": 1
-                      }
-                    ],
-                    "center": {
-                      "x": 0.5001522464666183,
-                      "y": 0.6939335546604231
-                    }
+                "colors": [
+                  {
+                    "color": "#0b1e46ff",
+                    "position": 0
                   },
-                  "textGrowth": "fixed-width-height",
-                  "width": "fill_container",
-                  "height": 100,
-                  "content": "A Digital Experiment in Governance",
-                  "lineHeight": 0.6,
-                  "textAlign": "center",
-                  "textAlignVertical": "middle",
-                  "fontFamily": "Ubuntu",
-                  "fontSize": 40,
-                  "fontWeight": "700",
-                  "letterSpacing": 2
+                  {
+                    "color": "#896580ff",
+                    "position": 0.4423076808452606
+                  },
+                  {
+                    "color": "#da1e3fff",
+                    "position": 1
+                  }
+                ],
+                "center": {
+                  "x": 0.5001522464666183,
+                  "y": 0.6939335546604231
                 }
-              ]
+              },
+              "textGrowth": "fixed-width-height",
+              "width": "fill_container",
+              "height": 44,
+              "content": "A Digital Experiment in Governance",
+              "lineHeight": 0.6,
+              "textAlign": "center",
+              "textAlignVertical": "middle",
+              "fontFamily": "Ubuntu",
+              "fontSize": 40,
+              "fontWeight": "700",
+              "letterSpacing": 2
             },
             {
               "type": "frame",
@@ -651,21 +705,90 @@
                       "fontWeight": "normal"
                     },
                     {
-                      "type": "rectangle",
-                      "id": "eWWs4",
-                      "name": "Rectangle 4",
-                      "fill": {
-                        "type": "image",
-                        "enabled": true,
-                        "url": "./assets/digital-experiment-1.png",
-                        "mode": "fill"
-                      },
-                      "width": 868.0260009765625,
-                      "height": 473.74658203125,
-                      "stroke": {
-                        "align": "inside",
-                        "thickness": 1
-                      }
+                      "type": "frame",
+                      "id": "NHlBe",
+                      "name": "Right Column Photos",
+                      "width": 866,
+                      "height": 627,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "9Md7G",
+                          "x": 138.97805683344086,
+                          "y": 278.8033930139634,
+                          "name": "Photo 3",
+                          "rotation": -4.017243868570016,
+                          "width": 426,
+                          "height": 273,
+                          "fill": [
+                            "#FFFFFF",
+                            {
+                              "type": "image",
+                              "enabled": true,
+                              "url": "./assets/human-interaction-photo-06.jpg",
+                              "mode": "fill"
+                            }
+                          ],
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 10,
+                            "fill": "#FFFFFF"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "UldXD",
+                          "x": 8,
+                          "y": 46.27974748001702,
+                          "name": "Photo 2",
+                          "rotation": 5,
+                          "width": 421,
+                          "height": 269,
+                          "fill": [
+                            "#FFFFFF",
+                            {
+                              "type": "image",
+                              "enabled": true,
+                              "url": "./assets/digital-experiment-1.png",
+                              "mode": "fill"
+                            }
+                          ],
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 10,
+                            "fill": "#FFFFFF"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TwY6m",
+                          "x": 401.55475038693476,
+                          "y": 46,
+                          "name": "Photo 1",
+                          "rotation": -4,
+                          "width": 476,
+                          "height": 309,
+                          "fill": [
+                            "#FFFFFF",
+                            {
+                              "type": "image",
+                              "enabled": true,
+                              "url": "./assets/human-interaction-photo-01.jpg",
+                              "mode": "fill"
+                            }
+                          ],
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 10,
+                            "fill": "#FFFFFF"
+                          },
+                          "padding": 10
+                        }
+                      ]
                     }
                   ]
                 },
@@ -674,7 +797,7 @@
                   "id": "C4h5M",
                   "name": "Frame 24",
                   "width": "fill_container",
-                  "height": 465,
+                  "height": 522,
                   "stroke": {
                     "align": "inside",
                     "thickness": 1
@@ -683,21 +806,65 @@
                   "alignItems": "center",
                   "children": [
                     {
-                      "type": "rectangle",
-                      "id": "SNf29",
-                      "name": "Rectangle 5",
-                      "fill": {
-                        "type": "image",
-                        "enabled": true,
-                        "url": "./assets/digital-experiment-2.png",
-                        "mode": "fill"
-                      },
-                      "width": 868.7138671875,
-                      "height": 474.12200927734375,
-                      "stroke": {
-                        "align": "inside",
-                        "thickness": 1
-                      }
+                      "type": "frame",
+                      "id": "PMvbV",
+                      "name": "Left Column Photos",
+                      "width": 866,
+                      "height": 627,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ATgAq",
+                          "x": 347.833776281911,
+                          "y": 164.5,
+                          "name": "Photo 1",
+                          "rotation": -4,
+                          "width": 519,
+                          "height": 313,
+                          "fill": [
+                            "#FFFFFF",
+                            {
+                              "type": "image",
+                              "enabled": true,
+                              "url": "./assets/human-interaction-photo-02.jpg",
+                              "mode": "fill"
+                            }
+                          ],
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 10,
+                            "fill": "#FFFFFF"
+                          },
+                          "padding": 10
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WIk0q",
+                          "x": -44.722331312330425,
+                          "y": 44.257271827429605,
+                          "name": "Photo 3",
+                          "rotation": 8.813682975115304,
+                          "width": 488,
+                          "height": 282,
+                          "fill": [
+                            "#FFFFFF",
+                            {
+                              "type": "image",
+                              "enabled": true,
+                              "url": "./assets/human-interaction-photo-05.jpg",
+                              "mode": "fill"
+                            }
+                          ],
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 10,
+                            "fill": "#FFFFFF"
+                          }
+                        }
+                      ]
                     },
                     {
                       "type": "text",
@@ -1922,19 +2089,19 @@
                       "type": "frame",
                       "id": "gAf8C",
                       "name": "Right Column Photos",
-                      "width": 520,
-                      "height": 520,
+                      "width": 627,
+                      "height": 627,
                       "layout": "none",
                       "children": [
                         {
                           "type": "frame",
                           "id": "0Emub",
-                          "x": 0,
-                          "y": 0,
+                          "x": 21.833776281911014,
+                          "y": 41,
                           "name": "Photo 1",
                           "rotation": -4,
-                          "width": 302,
-                          "height": 260,
+                          "width": 363,
+                          "height": 313,
                           "fill": [
                             "#FFFFFF",
                             {
@@ -1954,19 +2121,19 @@
                         },
                         {
                           "type": "frame",
-                          "id": "JHm3r",
-                          "x": 260,
-                          "y": 52,
-                          "name": "Photo 2",
-                          "rotation": 5,
-                          "width": 260,
-                          "height": 224,
+                          "id": "kmrcA",
+                          "x": 204.92120887803685,
+                          "y": 320.25341796875,
+                          "name": "Photo 3",
+                          "rotation": -7,
+                          "width": 262,
+                          "height": 236,
                           "fill": [
                             "#FFFFFF",
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "./assets/community/community-activity.jpg",
+                              "url": "./assets/community/community-fun.jpg",
                               "mode": "fill"
                             }
                           ],
@@ -1979,19 +2146,19 @@
                         },
                         {
                           "type": "frame",
-                          "id": "kmrcA",
-                          "x": 130,
-                          "y": 198,
-                          "name": "Photo 3",
-                          "rotation": -7,
-                          "width": 218,
-                          "height": 196,
+                          "id": "JHm3r",
+                          "x": 334.49888749388265,
+                          "y": 103.53302224239451,
+                          "name": "Photo 2",
+                          "rotation": 5,
+                          "width": 313,
+                          "height": 269,
                           "fill": [
                             "#FFFFFF",
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "./assets/community/community-fun.jpg",
+                              "url": "./assets/community/community-activity.jpg",
                               "mode": "fill"
                             }
                           ],
@@ -3084,44 +3251,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "rectangle",
-          "id": "VVCfX",
-          "name": "divider",
-          "fill": {
-            "type": "gradient",
-            "gradientType": "linear",
-            "enabled": true,
-            "rotation": -445.6403278891874,
-            "size": {
-              "height": 0.6594859589389725
-            },
-            "colors": [
-              {
-                "color": "#0b1e46ff",
-                "position": 0
-              },
-              {
-                "color": "#da1e3fff",
-                "position": 0.5625
-              },
-              {
-                "color": "#da1e3f00",
-                "position": 1
-              }
-            ],
-            "center": {
-              "x": 0.5041984341049117,
-              "y": 0.8828671101038874
-            }
-          },
-          "width": "fill_container",
-          "height": 6,
-          "stroke": {
-            "align": "inside",
-            "thickness": 1
-          }
         },
         {
           "type": "frame",
@@ -4589,6 +4718,44 @@
               "fontWeight": "normal"
             }
           ]
+        },
+        {
+          "type": "rectangle",
+          "id": "VVCfX",
+          "name": "divider",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": -445.6403278891874,
+            "size": {
+              "height": 0.6594859589389725
+            },
+            "colors": [
+              {
+                "color": "#0b1e46ff",
+                "position": 0
+              },
+              {
+                "color": "#da1e3fff",
+                "position": 0.5625
+              },
+              {
+                "color": "#da1e3f00",
+                "position": 1
+              }
+            ],
+            "center": {
+              "x": 0.5041984341049117,
+              "y": 0.8828671101038874
+            }
+          },
+          "width": "fill_container",
+          "height": 6,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          }
         }
       ]
     },
