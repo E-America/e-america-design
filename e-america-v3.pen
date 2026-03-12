@@ -4,12 +4,12 @@
     {
       "type": "frame",
       "id": "aCk2C",
-      "x": 6476,
+      "x": 6475,
       "y": -3912,
       "name": "e-America Landing Page",
       "clip": true,
       "width": 1737,
-      "height": 11340,
+      "height": 11697,
       "fill": "#FFFFFF",
       "layout": "vertical",
       "children": [
@@ -25,7 +25,7 @@
               "id": "m48tr",
               "name": "Hero Wrapper",
               "width": "fill_container",
-              "height": 950,
+              "height": 784,
               "fill": [
                 {
                   "type": "image",
@@ -90,7 +90,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "./assets/logo.png",
+                              "url": "./assets/logo-new.png.png",
                               "mode": "fit"
                             }
                           ]
@@ -272,8 +272,7 @@
                   "name": "Hero Content",
                   "width": "fill_container",
                   "height": "fill_container",
-                  "layout": "vertical",
-                  "gap": 120,
+                  "gap": 60,
                   "padding": [
                     0,
                     0,
@@ -285,102 +284,197 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "r2xfG",
-                      "name": "Text Group",
+                      "id": "pN73m",
+                      "name": "Frame 48",
                       "layout": "vertical",
-                      "gap": 48,
-                      "alignItems": "center",
+                      "gap": 42,
+                      "justifyContent": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "Eyx7q",
-                          "name": "subtitle",
-                          "fill": "#FFFFFF",
-                          "content": "America's entrepreneurial spirit, borderless.",
-                          "textAlign": "center",
-                          "fontFamily": "Ubuntu",
-                          "fontSize": 42,
-                          "fontWeight": "500"
+                          "type": "frame",
+                          "id": "r2xfG",
+                          "name": "Text Group",
+                          "layout": "vertical",
+                          "gap": 48,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Eyx7q",
+                              "name": "subtitle",
+                              "fill": "#FFFFFF",
+                              "content": "America's entrepreneurial spirit, borderless.",
+                              "fontFamily": "Ubuntu",
+                              "fontSize": 36,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Hybsq",
+                              "name": "title",
+                              "fill": "#FFFFFF",
+                              "textGrowth": "fixed-width",
+                              "width": 849,
+                              "content": "America\nfor entrepreneurs.|",
+                              "lineHeight": 1.1,
+                              "fontFamily": "Ubuntu Mono",
+                              "fontSize": 80,
+                              "fontWeight": "700"
+                            }
+                          ]
                         },
                         {
-                          "type": "text",
-                          "id": "Hybsq",
-                          "name": "title",
+                          "type": "frame",
+                          "id": "OyZ6U",
+                          "name": "Explore Button",
                           "fill": "#FFFFFF",
-                          "content": "America\nfor\nentrepreneurs.|",
-                          "lineHeight": 1.1,
-                          "textAlign": "center",
-                          "fontFamily": "Ubuntu Mono",
-                          "fontSize": 110,
-                          "fontWeight": "700"
+                          "cornerRadius": 1000,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#122249"
+                          },
+                          "gap": 10,
+                          "padding": [
+                            16,
+                            36
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "oOWHA",
+                              "name": "exploreText",
+                              "fill": {
+                                "type": "gradient",
+                                "gradientType": "linear",
+                                "enabled": true,
+                                "rotation": 85,
+                                "size": {
+                                  "height": 1
+                                },
+                                "colors": [
+                                  {
+                                    "color": "#0B1E46",
+                                    "position": 0.17
+                                  },
+                                  {
+                                    "color": "#896580",
+                                    "position": 0.57
+                                  },
+                                  {
+                                    "color": "#BF8398",
+                                    "position": 0.7
+                                  },
+                                  {
+                                    "color": "#DA1E3F",
+                                    "position": 1.07
+                                  }
+                                ]
+                              },
+                              "content": "Explore More",
+                              "fontFamily": "Ubuntu Mono",
+                              "fontSize": 22,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "PBq4g",
+                              "name": "Arrow Icon",
+                              "width": 24,
+                              "height": 24,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "./assets/arrow-icon.png",
+                                "mode": "fit"
+                              }
+                            }
+                          ]
                         }
                       ]
                     },
                     {
                       "type": "frame",
-                      "id": "OyZ6U",
-                      "name": "Explore Button",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 1000,
-                      "stroke": {
-                        "thickness": 1,
-                        "fill": "#122249"
-                      },
-                      "gap": 10,
-                      "padding": [
-                        16,
-                        36
-                      ],
-                      "alignItems": "center",
+                      "id": "EsLcq",
+                      "name": "Right Column Photos",
+                      "width": 631,
+                      "height": 598,
+                      "layout": "none",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "oOWHA",
-                          "name": "exploreText",
-                          "fill": {
-                            "type": "gradient",
-                            "gradientType": "linear",
-                            "enabled": true,
-                            "rotation": 85,
-                            "size": {
-                              "height": 1
-                            },
-                            "colors": [
-                              {
-                                "color": "#0B1E46",
-                                "position": 0.17
-                              },
-                              {
-                                "color": "#896580",
-                                "position": 0.57
-                              },
-                              {
-                                "color": "#BF8398",
-                                "position": 0.7
-                              },
-                              {
-                                "color": "#DA1E3F",
-                                "position": 1.07
-                              }
-                            ]
-                          },
-                          "content": "Explore More",
-                          "fontFamily": "Ubuntu Mono",
-                          "fontSize": 22,
-                          "fontWeight": "500"
+                          "type": "frame",
+                          "id": "HsrtZ",
+                          "x": 173.6254790273042,
+                          "y": 321.5,
+                          "name": "Photo 3",
+                          "rotation": -4.017243868570016,
+                          "width": 426,
+                          "height": 273,
+                          "fill": [
+                            "#FFFFFF",
+                            {
+                              "type": "image",
+                              "enabled": true,
+                              "url": "./assets/community/human-interaction-photo-08.jpg",
+                              "mode": "fill"
+                            }
+                          ],
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 10,
+                            "fill": "#FFFFFF"
+                          }
                         },
                         {
                           "type": "frame",
-                          "id": "PBq4g",
-                          "name": "Arrow Icon",
-                          "width": 24,
-                          "height": 24,
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "./assets/arrow-icon.png",
-                            "mode": "fit"
+                          "id": "B0Ey2",
+                          "x": 83.5,
+                          "y": 132.9953457952879,
+                          "name": "Photo 2",
+                          "rotation": 5,
+                          "width": 304,
+                          "height": 221,
+                          "fill": [
+                            "#FFFFFF",
+                            {
+                              "type": "image",
+                              "enabled": true,
+                              "url": "./assets/digital-experiment-1.png",
+                              "mode": "fill"
+                            }
+                          ],
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 10,
+                            "fill": "#FFFFFF"
                           }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "0s4J2",
+                          "x": 395.05522201593703,
+                          "y": 83.5,
+                          "name": "Photo 1",
+                          "rotation": -4,
+                          "width": 381,
+                          "height": 266,
+                          "fill": [
+                            "#FFFFFF",
+                            {
+                              "type": "image",
+                              "enabled": true,
+                              "url": "./assets/community/human-interaction-photo-01.jpg",
+                              "mode": "fill"
+                            }
+                          ],
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 10,
+                            "fill": "#FFFFFF"
+                          },
+                          "padding": 10
                         }
                       ]
                     }
@@ -392,9 +486,78 @@
         },
         {
           "type": "frame",
+          "id": "oTQvX",
+          "name": "video_Section",
+          "width": "fill_container",
+          "height": 835,
+          "fill": "#03112dff",
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            0,
+            0,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "i53Yc",
+              "name": "Frame 22",
+              "enabled": false,
+              "width": 1149,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PTcVD",
+                  "name": "A Digital Experiment in Freedom",
+                  "fill": "#ffffff",
+                  "textGrowth": "fixed-width-height",
+                  "width": "fill_container",
+                  "height": 100,
+                  "content": "America's entrepreneurial spirit, borderless.",
+                  "lineHeight": 0.6,
+                  "textAlign": "center",
+                  "textAlignVertical": "middle",
+                  "fontFamily": "Ubuntu",
+                  "fontSize": 40,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "VIiAa",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./assets/community/video_mockup_1",
+                "mode": "fill"
+              },
+              "width": 1433,
+              "height": 688
+            }
+          ]
+        },
+        {
+          "type": "frame",
           "id": "grQKl",
           "name": "map",
           "width": "fill_container",
+          "height": 1268,
           "fill": "#FFFFFF",
           "stroke": {
             "align": "inside",
@@ -449,17 +612,6 @@
                   "fontFamily": "Ubuntu",
                   "fontSize": 20,
                   "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "G2YLd",
-                  "name": "link",
-                  "opacity": 0.7,
-                  "fill": "#0B1E46",
-                  "content": "View Upcoming Events →",
-                  "fontFamily": "Ubuntu",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
                 }
               ]
             },
@@ -491,7 +643,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "https://images.unsplash.com/photo-1756507175997-7dfc3ff3b353?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMxMjA1NDZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "url": "./assets/map-mockup.png",
                     "mode": "fill"
                   },
                   "cornerRadius": 12,
@@ -520,68 +672,693 @@
         },
         {
           "type": "frame",
-          "id": "oTQvX",
-          "name": "aboutSection",
+          "id": "twO4K",
+          "name": "Events Banner",
           "width": "fill_container",
-          "height": 1024,
-          "fill": "#03112dff",
-          "stroke": {
-            "align": "inside",
-            "thickness": 1
-          },
+          "height": 815,
+          "fill": [
+            {
+              "type": "gradient",
+              "gradientType": "linear",
+              "enabled": true,
+              "rotation": 270,
+              "size": {
+                "height": 1
+              },
+              "colors": [
+                {
+                  "color": "#122249",
+                  "position": 0.161
+                },
+                {
+                  "color": "#da1e3f",
+                  "position": 0.6
+                }
+              ]
+            },
+            "#fdfdfde6"
+          ],
           "layout": "vertical",
-          "gap": 32,
+          "gap": 8,
           "padding": [
-            80,
-            0,
-            0,
-            0
+            48,
+            80
           ],
           "alignItems": "center",
           "children": [
             {
-              "type": "frame",
-              "id": "i53Yc",
-              "name": "Frame 22",
-              "width": 1149,
-              "stroke": {
-                "align": "inside",
-                "thickness": 1
-              },
-              "layout": "vertical",
-              "gap": 8,
-              "alignItems": "center",
+              "type": "group",
+              "id": "stw9G",
+              "name": "Event-content",
+              "width": "fill_container",
               "children": [
                 {
                   "type": "text",
-                  "id": "PTcVD",
-                  "name": "A Digital Experiment in Freedom",
-                  "fill": "#ffffff",
-                  "textGrowth": "fixed-width-height",
-                  "width": "fill_container",
-                  "height": 100,
-                  "content": "America's entrepreneurial spirit, borderless.",
-                  "lineHeight": 0.6,
+                  "id": "pbi53",
+                  "x": 627.5,
+                  "y": 0,
+                  "name": "evBannerTitle",
+                  "fill": "#141414ff",
+                  "content": "Community Events",
                   "textAlign": "center",
-                  "textAlignVertical": "middle",
                   "fontFamily": "Ubuntu",
-                  "fontSize": 40,
-                  "fontWeight": "700",
-                  "letterSpacing": 2
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "fSR3N",
+                  "x": 0,
+                  "y": 49,
+                  "name": "evBannerSub",
+                  "fill": "#141414ff",
+                  "textGrowth": "fixed-width",
+                  "width": 1577,
+                  "content": "Meetups, workshops, and gatherings hosted by e-Americans around the world",
+                  "textAlign": "center",
+                  "fontFamily": "Ubuntu",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "UPLbu",
+                  "x": 478.5,
+                  "y": 75,
+                  "name": "Timeline",
+                  "width": 620,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "49U7t",
+                      "name": "Today Section",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        0,
+                        24,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "IayDt",
+                          "name": "dateRow",
+                          "width": "fill_container",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "EvZze",
+                              "name": "bullet",
+                              "fill": "#1C2B4A",
+                              "width": 8,
+                              "height": 8
+                            },
+                            {
+                              "type": "text",
+                              "id": "adgYw",
+                              "name": "todayText",
+                              "fill": "#1C2B4A",
+                              "content": "Today",
+                              "fontFamily": "Ubuntu",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "4MkXO",
+                              "name": "tuesdayText",
+                              "fill": "#8E95A3",
+                              "content": "Tuesday",
+                              "fontFamily": "Ubuntu",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QpITT",
+                          "name": "card",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "padding": 20,
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "iDXmM",
+                              "name": "leftContent",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 6,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "BtjzA",
+                                  "name": "timeRow2",
+                                  "width": "fill_container",
+                                  "height": 20,
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "l5gIm",
+                                      "x": 0,
+                                      "y": 0,
+                                      "name": "t1new",
+                                      "fill": "#1C2B4A",
+                                      "content": "6:30 PM ·",
+                                      "fontFamily": "Ubuntu",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "WGLDr",
+                                      "x": 58,
+                                      "y": 0,
+                                      "name": "t2new",
+                                      "fill": "#E67E22",
+                                      "content": "10:30 AM GMT+3",
+                                      "fontFamily": "Ubuntu",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "eHEoz",
+                                  "name": "titleText",
+                                  "fill": "#1C2B4A",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Techies' Income in the AI Era – Builders Walk",
+                                  "fontFamily": "Ubuntu",
+                                  "fontSize": 18,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "5QPVh",
+                                  "name": "orgRow",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "ellipse",
+                                      "id": "bwNxV",
+                                      "name": "orgCircle",
+                                      "fill": "#EDEFF4",
+                                      "width": 20,
+                                      "height": 20
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "NCEES",
+                                      "name": "orgEmoji",
+                                      "content": "🌐",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "PIFXG",
+                                      "name": "orgText",
+                                      "fill": "#8E95A3",
+                                      "content": "By Emmanuel Maina & e-America",
+                                      "fontFamily": "Ubuntu",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "icon_font",
+                                      "id": "HrZnU",
+                                      "name": "flagIcon",
+                                      "width": 14,
+                                      "height": 14,
+                                      "iconFontName": "flag",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#8E95A3"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "171ah",
+                                  "name": "locRow",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "7T6dH",
+                                      "name": "locIcon",
+                                      "width": 16,
+                                      "height": 16,
+                                      "iconFontName": "map-pin",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#8E95A3"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "qCqT3",
+                                      "name": "locText",
+                                      "fill": "#8E95A3",
+                                      "content": "Karura Forest",
+                                      "fontFamily": "Ubuntu",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Xybz0",
+                                  "name": "avatarRow",
+                                  "width": 62,
+                                  "height": 20,
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "ellipse",
+                                      "id": "4FkVq",
+                                      "x": 0,
+                                      "y": 0,
+                                      "name": "av1",
+                                      "fill": "#CCD2DE",
+                                      "width": 20,
+                                      "height": 20,
+                                      "stroke": {
+                                        "thickness": 2,
+                                        "fill": "#FFFFFF"
+                                      }
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "LvhqO",
+                                      "x": 14,
+                                      "y": 0,
+                                      "name": "av2",
+                                      "fill": "#769DD1",
+                                      "width": 20,
+                                      "height": 20,
+                                      "stroke": {
+                                        "thickness": 2,
+                                        "fill": "#FFFFFF"
+                                      }
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "KPag8",
+                                      "x": 28,
+                                      "y": 0,
+                                      "name": "av3",
+                                      "fill": "#DA1E3F",
+                                      "width": 20,
+                                      "height": 20,
+                                      "stroke": {
+                                        "thickness": 2,
+                                        "fill": "#FFFFFF"
+                                      }
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "hD3CT",
+                                      "x": 42,
+                                      "y": 0,
+                                      "name": "av4",
+                                      "fill": "#0B1E46",
+                                      "width": 20,
+                                      "height": 20,
+                                      "stroke": {
+                                        "thickness": 2,
+                                        "fill": "#FFFFFF"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "rK3rp",
+                              "name": "imgFrame",
+                              "width": 100,
+                              "height": 100,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "./images/generated-1773120413317.png",
+                                "mode": "fill"
+                              },
+                              "cornerRadius": 8
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MO6Dm",
+                      "name": "Mar 21 Section",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        0,
+                        24,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "eygVm",
+                          "name": "dateRow",
+                          "width": "fill_container",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "OW2sw",
+                              "name": "bullet",
+                              "fill": "#1C2B4A",
+                              "width": 8,
+                              "height": 8
+                            },
+                            {
+                              "type": "text",
+                              "id": "X81XM",
+                              "name": "dateTxt",
+                              "fill": "#1C2B4A",
+                              "content": "Mar 21",
+                              "fontFamily": "Ubuntu",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "GyMkx",
+                              "name": "dayTxt",
+                              "fill": "#8E95A3",
+                              "content": "Saturday",
+                              "fontFamily": "Ubuntu",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "9Qc8Z",
+                          "name": "card",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "padding": 20,
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "hDjSZ",
+                              "name": "leftContent",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 6,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "mpyXw",
+                                  "name": "timeTxt",
+                                  "fill": "#8E95A3",
+                                  "content": "3:00 AM",
+                                  "fontFamily": "Ubuntu",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "DAu28",
+                                  "name": "titleTxt",
+                                  "fill": "#1C2B4A",
+                                  "content": "Meet And Greet",
+                                  "fontFamily": "Ubuntu",
+                                  "fontSize": 18,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "QsgGA",
+                                  "name": "orgRow",
+                                  "gap": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "ellipse",
+                                      "id": "PDHWP",
+                                      "name": "orgCircle",
+                                      "fill": "#F59E0B",
+                                      "width": 20,
+                                      "height": 20
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "FWunR",
+                                      "name": "orgTxt",
+                                      "fill": "#8E95A3",
+                                      "content": "By Smahmud3d Shariar",
+                                      "fontFamily": "Ubuntu",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "k84hz",
+                                  "name": "platRow",
+                                  "gap": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "E7tTT",
+                                      "name": "vidIcon",
+                                      "width": 16,
+                                      "height": 16,
+                                      "iconFontName": "video",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#8E95A3"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "Iibmh",
+                                      "name": "platTxt",
+                                      "fill": "#8E95A3",
+                                      "content": "Google Meet",
+                                      "fontFamily": "Ubuntu",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "oAwwR",
+                              "name": "imgFrame",
+                              "width": 100,
+                              "height": 100,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "./images/generated-1773120409986.png",
+                                "mode": "fill"
+                              },
+                              "cornerRadius": 8
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pZlqx",
+                      "name": "Apr 7 Section",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        0,
+                        24,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "KmcDb",
+                          "name": "dateRow",
+                          "width": "fill_container",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "nHCJJ",
+                              "name": "bullet",
+                              "fill": "#1C2B4A",
+                              "width": 8,
+                              "height": 8
+                            },
+                            {
+                              "type": "text",
+                              "id": "QxKFH",
+                              "name": "apr7",
+                              "fill": "#1C2B4A",
+                              "content": "Apr 7",
+                              "fontFamily": "Ubuntu",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "cORXC",
+                              "name": "tuesday",
+                              "fill": "#8E95A3",
+                              "content": "Tuesday",
+                              "fontFamily": "Ubuntu",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LiT19",
+                          "name": "card",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "gap": 16,
+                          "padding": 20,
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "jNajO",
+                              "name": "leftContent",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 6,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "biRdL",
+                                  "name": "timeLine",
+                                  "width": "fill_container",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "puvyk",
+                                      "name": "timeWhite",
+                                      "fill": "#6B7280",
+                                      "content": "3:00 AM · ",
+                                      "fontFamily": "Ubuntu",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "91Jfi",
+                                      "name": "timeOrange",
+                                      "fill": "#E67E22",
+                                      "content": "Apr 6, 5:00 PM GMT",
+                                      "fontFamily": "Ubuntu",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "KCvSm",
+                                  "name": "eventTitle",
+                                  "fill": "#1C2B4A",
+                                  "content": "Community Town Hall Meeting",
+                                  "fontFamily": "Ubuntu",
+                                  "fontSize": 15,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "63Ws9",
+                                  "name": "eventDesc",
+                                  "fill": "#6B7280",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Join us for our monthly community gathering to discuss upcoming initiatives and connect with fellow members.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "Ubuntu",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "o0Bpd",
+                              "name": "thumbFrame",
+                              "metadata": {
+                                "type": "unsplash",
+                                "username": "loganvoss",
+                                "link": "https://unsplash.com/@loganvoss",
+                                "author": "Logan Voss"
+                              },
+                              "clip": true,
+                              "width": 100,
+                              "height": 100,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "https://images.unsplash.com/photo-1760113218007-c03ca6b1d949?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMxMDUwNzJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                                "mode": "fill"
+                              },
+                              "cornerRadius": 8
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "65oY2",
+                  "x": 665.5,
+                  "y": 680,
+                  "name": "link",
+                  "opacity": 0.7,
+                  "fill": "#292929ff",
+                  "content": "View All Upcoming Events →",
+                  "fontFamily": "Ubuntu",
+                  "fontSize": 18,
+                  "fontWeight": "700"
                 }
               ]
-            },
-            {
-              "type": "rectangle",
-              "id": "VIiAa",
-              "fill": {
-                "type": "image",
-                "enabled": true,
-                "url": "./assets/community/video_mockup_1",
-                "mode": "fill"
-              },
-              "width": 1433,
-              "height": 688
             }
           ]
         },
@@ -593,7 +1370,11 @@
           "fill": "#ffffffff",
           "stroke": {
             "align": "inside",
-            "thickness": 1
+            "thickness": {
+              "top": 1,
+              "bottom": 1
+            },
+            "fill": "#769dd1"
           },
           "layout": "vertical",
           "gap": 32,
@@ -671,9 +1452,9 @@
               "stroke": {
                 "align": "inside",
                 "thickness": {
-                  "top": 1
-                },
-                "fill": "#769dd1ff"
+                  "top": 1,
+                  "bottom": 1
+                }
               },
               "layout": "vertical",
               "children": [
@@ -726,7 +1507,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "./assets/human-interaction-photo-06.jpg",
+                              "url": "./assets/community/human-interaction-photo-06.jpg",
                               "mode": "fill"
                             }
                           ],
@@ -776,7 +1557,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "./assets/human-interaction-photo-01.jpg",
+                              "url": "./assets/community/human-interaction-photo-10.jpg",
                               "mode": "fill"
                             }
                           ],
@@ -797,7 +1578,7 @@
                   "id": "C4h5M",
                   "name": "Frame 24",
                   "width": "fill_container",
-                  "height": 522,
+                  "height": 509,
                   "stroke": {
                     "align": "inside",
                     "thickness": 1
@@ -827,7 +1608,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "./assets/human-interaction-photo-02.jpg",
+                              "url": "./assets/community/human-interaction-photo-02.jpg",
                               "mode": "fill"
                             }
                           ],
@@ -853,7 +1634,7 @@
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "./assets/human-interaction-photo-05.jpg",
+                              "url": "./assets/community/human-interaction-photo-05.jpg",
                               "mode": "fill"
                             }
                           ],
@@ -2061,7 +2842,7 @@
                               "id": "0lueF",
                               "name": "Browse Events Button",
                               "fill": "#B30C2A",
-                              "cornerRadius": 8,
+                              "cornerRadius": 100,
                               "padding": [
                                 12,
                                 32
@@ -2076,7 +2857,7 @@
                                   "fill": "#FFFFFF",
                                   "content": "Browse Events",
                                   "fontFamily": "Ubuntu",
-                                  "fontSize": 16,
+                                  "fontSize": 18,
                                   "fontWeight": "600"
                                 }
                               ]
@@ -2869,7 +3650,7 @@
           "id": "PSjfE",
           "name": "treasury",
           "width": "fill_container",
-          "fill": "#ffffffff",
+          "fill": "#edeff4",
           "stroke": {
             "align": "inside",
             "thickness": 1
@@ -3257,6 +4038,7 @@
           "id": "cgL3D",
           "name": "mission",
           "width": "fill_container",
+          "fill": "#ffffffff",
           "stroke": {
             "align": "inside",
             "thickness": 1
@@ -4800,7 +5582,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "./assets/logo.png",
+                "url": "./assets/logo-new.png.png",
                 "mode": "fit"
               }
             }
@@ -5047,7 +5829,7 @@
                 {
                   "type": "image",
                   "enabled": true,
-                  "url": "./assets/logo.png",
+                  "url": "./assets/logo-new.png.png",
                   "mode": "fit"
                 }
               ]
@@ -5217,11 +5999,11 @@
             "colors": [
               {
                 "color": "#122249",
-                "position": 0.161
+                "position": 0.16
               },
               {
                 "color": "#da1e3f",
-                "position": 0.6
+                "position": 0.99
               }
             ]
           },
@@ -7534,7 +8316,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "./assets/logo.png",
+                "url": "./assets/logo-new.png.png",
                 "mode": "fit"
               }
             }
@@ -8440,7 +9222,7 @@
                 {
                   "type": "image",
                   "enabled": true,
-                  "url": "./assets/logo.png",
+                  "url": "./assets/logo-new.png.png",
                   "mode": "fit"
                 }
               ]
@@ -8598,31 +9380,62 @@
           "id": "WHIJG",
           "name": "Events Banner",
           "width": "fill_container",
-          "fill": {
-            "type": "gradient",
-            "gradientType": "linear",
-            "enabled": true,
-            "rotation": 270,
-            "size": {
-              "height": 1
-            },
-            "colors": [
-              {
-                "color": "#122249",
-                "position": 0.161
+          "height": 377,
+          "fill": [
+            {
+              "type": "gradient",
+              "gradientType": "linear",
+              "enabled": true,
+              "rotation": 270,
+              "size": {
+                "height": 1
               },
-              {
-                "color": "#da1e3f",
-                "position": 0.6
-              }
-            ]
-          },
+              "colors": [
+                {
+                  "color": "#122249",
+                  "position": 0.161
+                },
+                {
+                  "color": "#da1e3f",
+                  "position": 0.6
+                }
+              ]
+            },
+            {
+              "type": "image",
+              "opacity": 0.65,
+              "enabled": true,
+              "url": "./assets/community/human-interaction-photo-01.jpg",
+              "mode": "fill"
+            },
+            {
+              "type": "gradient",
+              "gradientType": "linear",
+              "enabled": true,
+              "rotation": 0,
+              "size": {
+                "height": 1
+              },
+              "colors": [
+                {
+                  "color": "#000000cc",
+                  "position": 0
+                },
+                {
+                  "color": "#00000000",
+                  "position": 0.63
+                }
+              ]
+            }
+          ],
           "layout": "vertical",
           "gap": 8,
           "padding": [
             48,
             80
           ],
+          "justifyContent": "end",
+          "alignItems": "center",
           "children": [
             {
               "type": "text",
@@ -8630,6 +9443,7 @@
               "name": "evBannerTitle",
               "fill": "#FFFFFF",
               "content": "Community Events",
+              "textAlign": "center",
               "fontFamily": "Ubuntu",
               "fontSize": 36,
               "fontWeight": "700"
@@ -8642,6 +9456,7 @@
               "textGrowth": "fixed-width",
               "width": "fill_container",
               "content": "Meetups, workshops, and gatherings hosted by e-Americans around the world",
+              "textAlign": "center",
               "fontFamily": "Ubuntu",
               "fontSize": 16,
               "fontWeight": "normal"
@@ -9377,7 +10192,7 @@
                 {
                   "type": "image",
                   "enabled": true,
-                  "url": "./assets/logo.png",
+                  "url": "./assets/logo-new.png.png",
                   "mode": "fit"
                 }
               ]
@@ -9533,40 +10348,73 @@
         },
         {
           "type": "frame",
-          "id": "5UCTy",
-          "name": "Community Map Banner",
+          "id": "5DEv6",
+          "name": "Events Banner",
           "width": "fill_container",
-          "fill": {
-            "type": "gradient",
-            "gradientType": "linear",
-            "enabled": true,
-            "rotation": 270,
-            "size": {
-              "height": 1
-            },
-            "colors": [
-              {
-                "color": "#122249",
-                "position": 0.161
+          "height": 335,
+          "fill": [
+            {
+              "type": "gradient",
+              "gradientType": "linear",
+              "enabled": true,
+              "rotation": 270,
+              "size": {
+                "height": 1
               },
-              {
-                "color": "#da1e3f",
-                "position": 0.6
-              }
-            ]
-          },
+              "colors": [
+                {
+                  "color": "#122249",
+                  "position": 0.161
+                },
+                {
+                  "color": "#da1e3f",
+                  "position": 0.6
+                }
+              ]
+            },
+            {
+              "type": "image",
+              "opacity": 0.65,
+              "enabled": true,
+              "url": "./assets/community/human-interaction-photo-02.jpg",
+              "mode": "fill"
+            },
+            {
+              "type": "gradient",
+              "gradientType": "linear",
+              "enabled": true,
+              "rotation": 0,
+              "size": {
+                "height": 1
+              },
+              "colors": [
+                {
+                  "color": "#000000cc",
+                  "position": 0
+                },
+                {
+                  "color": "#00000000",
+                  "position": 0.63
+                }
+              ]
+            }
+          ],
           "layout": "vertical",
+          "gap": 8,
           "padding": [
             48,
             80
           ],
+          "justifyContent": "end",
+          "alignItems": "center",
           "children": [
             {
               "type": "text",
-              "id": "TLdqM",
-              "name": "mapTitle",
-              "fill": "$ea-white",
+              "id": "7R1y3",
+              "name": "evBannerTitle",
+              "fill": "#FFFFFF",
               "content": "Community Map",
+              "textAlign": "center",
               "fontFamily": "Ubuntu",
               "fontSize": 36,
               "fontWeight": "700"
@@ -9598,7 +10446,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "image-3.png",
+                "url": "./assets/map-mockup.png",
                 "mode": "fill"
               },
               "cornerRadius": 12,
@@ -9637,11 +10485,11 @@
             "colors": [
               {
                 "color": "#122249",
-                "position": 0.161
+                "position": 0.3
               },
               {
                 "color": "#da1e3f",
-                "position": 0.6
+                "position": 1
               }
             ]
           },
@@ -9651,6 +10499,7 @@
             48,
             80
           ],
+          "alignItems": "center",
           "children": [
             {
               "type": "text",
@@ -9676,15 +10525,17 @@
         },
         {
           "type": "frame",
-          "id": "ugEDa",
-          "name": "Search Bar Section",
+          "id": "YvI9w",
+          "name": "A-Z Navigation",
           "width": "fill_container",
-          "fill": "$ea-dark-navy",
+          "fill": "$ea-white",
+          "layout": "vertical",
+          "gap": 24,
           "padding": [
-            16,
+            24,
             80
           ],
-          "justifyContent": "center",
+          "alignItems": "center",
           "children": [
             {
               "type": "frame",
@@ -9693,6 +10544,11 @@
               "width": 672,
               "fill": "$ea-white",
               "cornerRadius": 8,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#bababaff"
+              },
               "gap": 12,
               "padding": [
                 14,
@@ -9721,22 +10577,7 @@
                   "fontWeight": "normal"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "YvI9w",
-          "name": "A-Z Navigation",
-          "width": "fill_container",
-          "fill": "$ea-white",
-          "layout": "vertical",
-          "padding": [
-            24,
-            80
-          ],
-          "alignItems": "center",
-          "children": [
+            },
             {
               "type": "frame",
               "id": "7K8Ov",
