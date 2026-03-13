@@ -15,17 +15,18 @@
       "children": [
         {
           "type": "frame",
-          "id": "C9yzv",
-          "name": "nav",
+          "id": "4uMPL",
+          "name": "Hero-2",
           "width": "fill_container",
+          "height": 866,
           "layout": "vertical",
           "children": [
             {
               "type": "frame",
-              "id": "m48tr",
+              "id": "WpkJV",
               "name": "Hero Wrapper",
               "width": "fill_container",
-              "height": 784,
+              "height": 912,
               "fill": [
                 {
                   "type": "image",
@@ -61,7 +62,7 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "ThuTw",
+                  "id": "JtL56",
                   "name": "Nav Container",
                   "width": "fill_container",
                   "layout": "vertical",
@@ -73,7 +74,7 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "xUIYQ",
+                      "id": "IU7jX",
                       "name": "Nav Row 1",
                       "width": "fill_container",
                       "justifyContent": "space_between",
@@ -81,7 +82,7 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "Ag8ro",
+                          "id": "L9Ps8",
                           "name": "Logo",
                           "width": 231,
                           "height": 77,
@@ -97,14 +98,14 @@
                         },
                         {
                           "type": "frame",
-                          "id": "Jt3at",
+                          "id": "sPuJ1",
                           "name": "Nav Buttons",
                           "gap": 24,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "frame",
-                              "id": "uoeqD",
+                              "id": "9K06k",
                               "name": "Apply Button",
                               "fill": "#FFFFFF",
                               "cornerRadius": 1000,
@@ -120,7 +121,7 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "ZyjCy",
+                                  "id": "znjoK",
                                   "name": "applyText",
                                   "fill": {
                                     "type": "gradient",
@@ -158,7 +159,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "Ulbju",
+                              "id": "qkDDr",
                               "name": "Login Button",
                               "fill": "#DA1E3F",
                               "cornerRadius": 1000,
@@ -170,7 +171,7 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "uCR5d",
+                                  "id": "44QaL",
                                   "name": "loginText",
                                   "fill": "#FFFFFF",
                                   "content": "Citizen Login",
@@ -186,7 +187,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "E4OQ2",
+                      "id": "wFUNO",
                       "name": "Nav Row 2",
                       "width": "fill_container",
                       "gap": 24,
@@ -194,7 +195,7 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "bzn69",
+                          "id": "B3NGj",
                           "name": "link1",
                           "fill": "#FFFFFF",
                           "content": "About Us",
@@ -204,7 +205,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "cidLY",
+                          "id": "7YlTj",
                           "name": "link2",
                           "fill": "#B7B7B7",
                           "content": "e-Services",
@@ -214,7 +215,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "KPYiH",
+                          "id": "xaclu",
                           "name": "link3",
                           "fill": "#B7B7B7",
                           "content": "Universal Income",
@@ -224,7 +225,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "ebbg9",
+                          "id": "wabz4",
                           "name": "link4",
                           "fill": "#B7B7B7",
                           "content": "e-Passport",
@@ -234,7 +235,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "aS4bL",
+                          "id": "ZZPZZ",
                           "name": "link5",
                           "fill": "#B7B7B7",
                           "content": "e-Treasury",
@@ -244,7 +245,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "mLm8T",
+                          "id": "YUQ81",
                           "name": "link6",
                           "fill": "#B7B7B7",
                           "content": "Mission",
@@ -254,7 +255,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "TPMKW",
+                          "id": "fIY6l",
                           "name": "link7",
                           "fill": "#B7B7B7",
                           "content": "Constitution",
@@ -268,8 +269,9 @@
                 },
                 {
                   "type": "frame",
-                  "id": "g8jsp",
+                  "id": "botxN",
                   "name": "Hero Content",
+                  "clip": true,
                   "width": "fill_container",
                   "height": "fill_container",
                   "gap": 60,
@@ -279,27 +281,90 @@
                     80,
                     0
                   ],
-                  "justifyContent": "center",
+                  "justifyContent": "space_between",
                   "alignItems": "center",
                   "children": [
                     {
                       "type": "frame",
-                      "id": "pN73m",
+                      "id": "L9y05",
+                      "name": "Right Column Photos",
+                      "width": 631,
+                      "height": 598,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "FDFJf",
+                          "x": 10.012321221135608,
+                          "y": 392.5,
+                          "name": "Photo 3",
+                          "rotation": -4.216171287703773,
+                          "width": 382,
+                          "height": 245,
+                          "fill": [
+                            "#FFFFFF",
+                            {
+                              "type": "image",
+                              "enabled": true,
+                              "url": "./assets/community/human-interaction-photo-08.jpg",
+                              "mode": "fill"
+                            }
+                          ],
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 10,
+                            "fill": "#FFFFFF"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IKXRD",
+                          "x": -61.71818530744986,
+                          "y": 188.01395332520906,
+                          "name": "Photo 1",
+                          "rotation": 8.480927033377723,
+                          "width": 381,
+                          "height": 266,
+                          "fill": [
+                            "#FFFFFF",
+                            {
+                              "type": "image",
+                              "enabled": true,
+                              "url": "./assets/community/human-interaction-photo-01.jpg",
+                              "mode": "fill"
+                            }
+                          ],
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 10,
+                            "fill": "#FFFFFF"
+                          },
+                          "padding": 10
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "crOE7",
                       "name": "Frame 48",
                       "layout": "vertical",
                       "gap": 42,
                       "justifyContent": "center",
+                      "alignItems": "center",
                       "children": [
                         {
                           "type": "frame",
-                          "id": "r2xfG",
+                          "id": "C0Vlq",
                           "name": "Text Group",
                           "layout": "vertical",
                           "gap": 48,
+                          "alignItems": "center",
                           "children": [
                             {
                               "type": "text",
-                              "id": "Eyx7q",
+                              "id": "kkazu",
                               "name": "subtitle",
                               "fill": "#FFFFFF",
                               "content": "America's entrepreneurial spirit, borderless.",
@@ -309,13 +374,14 @@
                             },
                             {
                               "type": "text",
-                              "id": "Hybsq",
+                              "id": "e5Izl",
                               "name": "title",
                               "fill": "#FFFFFF",
                               "textGrowth": "fixed-width",
                               "width": 849,
                               "content": "America\nfor entrepreneurs.|",
                               "lineHeight": 1.1,
+                              "textAlign": "center",
                               "fontFamily": "Ubuntu Mono",
                               "fontSize": 80,
                               "fontWeight": "700"
@@ -324,7 +390,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "OyZ6U",
+                          "id": "6Uvmb",
                           "name": "Explore Button",
                           "fill": "#FFFFFF",
                           "cornerRadius": 1000,
@@ -341,7 +407,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "oOWHA",
+                              "id": "VqxyB",
                               "name": "exploreText",
                               "fill": {
                                 "type": "gradient",
@@ -377,7 +443,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "PBq4g",
+                              "id": "XucvI",
                               "name": "Arrow Icon",
                               "width": 24,
                               "height": 24,
@@ -394,7 +460,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "EsLcq",
+                      "id": "SDjyy",
                       "name": "Right Column Photos",
                       "width": 631,
                       "height": 598,
@@ -402,19 +468,19 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "HsrtZ",
-                          "x": 173.6254790273042,
-                          "y": 321.5,
+                          "id": "kzSjJ",
+                          "x": 260.98358951759565,
+                          "y": 331.68907432909964,
                           "name": "Photo 3",
-                          "rotation": -4.017243868570016,
-                          "width": 426,
-                          "height": 273,
+                          "rotation": -7.095056277802826,
+                          "width": 406,
+                          "height": 260,
                           "fill": [
                             "#FFFFFF",
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "./assets/community/human-interaction-photo-08.jpg",
+                              "url": "./assets/community/human-interaction-photo-04.jpg",
                               "mode": "fill"
                             }
                           ],
@@ -427,44 +493,19 @@
                         },
                         {
                           "type": "frame",
-                          "id": "B0Ey2",
-                          "x": 83.5,
-                          "y": 132.9953457952879,
-                          "name": "Photo 2",
-                          "rotation": 5,
-                          "width": 304,
-                          "height": 221,
-                          "fill": [
-                            "#FFFFFF",
-                            {
-                              "type": "image",
-                              "enabled": true,
-                              "url": "./assets/digital-experiment-1.png",
-                              "mode": "fill"
-                            }
-                          ],
-                          "cornerRadius": 4,
-                          "stroke": {
-                            "align": "inside",
-                            "thickness": 10,
-                            "fill": "#FFFFFF"
-                          }
-                        },
-                        {
-                          "type": "frame",
-                          "id": "0s4J2",
-                          "x": 395.05522201593703,
-                          "y": 83.5,
+                          "id": "gWHqR",
+                          "x": 304.3020930786588,
+                          "y": 123.10207324757039,
                           "name": "Photo 1",
-                          "rotation": -4,
-                          "width": 381,
-                          "height": 266,
+                          "rotation": 0.6923631871812086,
+                          "width": 345,
+                          "height": 241,
                           "fill": [
                             "#FFFFFF",
                             {
                               "type": "image",
                               "enabled": true,
-                              "url": "./assets/community/human-interaction-photo-01.jpg",
+                              "url": "./assets/community/human-interaction-photo-03.jpg",
                               "mode": "fill"
                             }
                           ],
@@ -489,7 +530,7 @@
           "id": "oTQvX",
           "name": "video_Section",
           "width": "fill_container",
-          "height": 835,
+          "height": 777,
           "fill": "#03112dff",
           "stroke": {
             "align": "inside",
@@ -547,8 +588,8 @@
                 "url": "./assets/community/video_mockup_1",
                 "mode": "fill"
               },
-              "width": 1433,
-              "height": 688
+              "width": 1748,
+              "height": 759
             }
           ]
         },
@@ -5797,7 +5838,7 @@
     {
       "type": "frame",
       "id": "qJEMG",
-      "x": 10344,
+      "x": 10348,
       "y": -3912,
       "name": "Dashboard",
       "width": 1737,
@@ -6017,7 +6058,7 @@
               "type": "frame",
               "id": "lEVxI",
               "name": "My ePassport",
-              "width": "fill_container",
+              "width": 646,
               "layout": "vertical",
               "gap": 24,
               "children": [
@@ -6035,7 +6076,7 @@
                   "type": "frame",
                   "id": "mRYB7",
                   "name": "URL Bar",
-                  "width": "fill_container",
+                  "width": 501,
                   "fill": "$ea-white",
                   "cornerRadius": 12,
                   "stroke": {
@@ -6075,8 +6116,8 @@
                   "type": "frame",
                   "id": "XwLbn",
                   "name": "QR Card",
-                  "width": 329,
-                  "height": 329,
+                  "width": 405,
+                  "height": 405,
                   "fill": {
                     "type": "image",
                     "enabled": true,
@@ -6150,7 +6191,8 @@
                   "type": "frame",
                   "id": "pvUAe",
                   "name": "Profile Card",
-                  "width": "fill_container",
+                  "width": 890,
+                  "height": 491,
                   "fill": "$ea-white",
                   "cornerRadius": 20,
                   "effect": {
@@ -6378,7 +6420,7 @@
               "type": "text",
               "id": "4iFU8",
               "name": "btcTitle",
-              "fill": "$ea-dark-navy",
+              "fill": "$ea-magenta",
               "content": "Bitcoin Treasury",
               "textAlign": "center",
               "fontFamily": "Ubuntu Mono",
@@ -6398,110 +6440,131 @@
               "alignItems": "center",
               "children": [
                 {
-                  "type": "text",
-                  "id": "NWDLt",
-                  "name": "btcAmount",
-                  "fill": "$ea-dark-navy",
-                  "content": "0.208544 BTC",
-                  "textAlign": "center",
-                  "fontFamily": "Ubuntu Mono",
-                  "fontSize": 48,
-                  "fontWeight": "700"
-                },
-                {
-                  "type": "text",
-                  "id": "h2x3j",
-                  "name": "btcSubtitle",
-                  "fill": "#676D79",
-                  "content": "Current Treasury Holdings",
-                  "textAlign": "center",
-                  "fontFamily": "Ubuntu",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "frame",
-                  "id": "7cWSB",
-                  "name": "Wallet Section",
-                  "width": "fill_container",
+                  "type": "group",
+                  "id": "oLmcS",
                   "layout": "vertical",
                   "gap": 12,
+                  "alignItems": "center",
                   "children": [
                     {
                       "type": "text",
-                      "id": "R8UUB",
-                      "name": "walletLabel",
+                      "id": "NWDLt",
+                      "name": "btcAmount",
                       "fill": "$ea-dark-navy",
-                      "content": "Treasury Wallet Address",
+                      "content": "0.208544 BTC",
+                      "textAlign": "center",
                       "fontFamily": "Ubuntu Mono",
-                      "fontSize": 16,
+                      "fontSize": 48,
                       "fontWeight": "700"
                     },
                     {
-                      "type": "frame",
-                      "id": "g3hq5",
-                      "name": "Wallet Bar",
-                      "width": "fill_container",
-                      "fill": "$ea-white",
-                      "cornerRadius": 12,
-                      "stroke": {
-                        "thickness": 1,
-                        "fill": "#E5E7EB"
-                      },
-                      "padding": [
-                        16,
-                        20
-                      ],
-                      "justifyContent": "space_between",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "Kvti5",
-                          "name": "walletAddr",
-                          "fill": "#374151",
-                          "content": "bc1qrqd0lqh5jtq962ewp6rxx5qdexyuyqsnml07eg",
-                          "fontFamily": "Ubuntu Mono",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "icon_font",
-                          "id": "qed8y",
-                          "name": "walletCopy",
-                          "width": 20,
-                          "height": 20,
-                          "iconFontName": "copy",
-                          "iconFontFamily": "lucide",
-                          "fill": "#374151"
-                        }
-                      ]
-                    },
-                    {
                       "type": "text",
-                      "id": "2scJT",
-                      "name": "explorerLink",
-                      "fill": "$ea-magenta",
-                      "content": "View on Blockchain Explorer →",
+                      "id": "h2x3j",
+                      "name": "btcSubtitle",
+                      "fill": "#676D79",
+                      "content": "Current Treasury Holdings",
+                      "textAlign": "center",
                       "fontFamily": "Ubuntu",
                       "fontSize": 16,
-                      "fontWeight": "500"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
                 {
-                  "type": "text",
-                  "id": "AJvtf",
-                  "name": "btcDesc",
-                  "fill": "#374151",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "e-America has established a very modest Bitcoin Treasury, currently holding 0.208544 Bitcoin. This is a small and intentional first step, a humble starting point that marks the beginning of a longer journey. This treasury will serve as the foundation for the Universal Earned Income program and is designed to grow steadily as e-America grows. Over time, we hope to build this into a meaningful and resilient treasury aligned with long term participation and contribution.",
-                  "lineHeight": 1.6,
-                  "textAlign": "center",
-                  "fontFamily": "Ubuntu",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
+                  "type": "group",
+                  "id": "QK59r",
+                  "layout": "horizontal",
+                  "gap": 54,
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AJvtf",
+                      "name": "btcDesc",
+                      "fill": "#374151",
+                      "textGrowth": "fixed-width",
+                      "width": 664.1957822029108,
+                      "content": "e-America has established a very modest Bitcoin Treasury, currently holding 0.208544 Bitcoin. This is a small and intentional first step, a humble starting point that marks the beginning of a longer journey. This treasury will serve as the foundation for the Universal Earned Income program and is designed to grow steadily as e-America grows. Over time, we hope to build this into a meaningful and resilient treasury aligned with long term participation and contribution.",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "Ubuntu",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "group",
+                      "id": "tFqlK",
+                      "name": "Wallet-info",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "R8UUB",
+                          "name": "walletLabel",
+                          "fill": "$ea-dark-navy",
+                          "textGrowth": "fixed-width",
+                          "width": 267.41308101476886,
+                          "content": "Treasury Wallet Address",
+                          "fontFamily": "Ubuntu Mono",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "g3hq5",
+                          "name": "Wallet Bar",
+                          "width": 621.5547288451384,
+                          "fill": "$ea-white",
+                          "cornerRadius": 12,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#E5E7EB"
+                          },
+                          "padding": [
+                            16,
+                            20
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Kvti5",
+                              "name": "walletAddr",
+                              "fill": "#374151",
+                              "content": "bc1qrqd0lqh5jtq962ewp6rxx5qdexyuyqsnml07eg",
+                              "fontFamily": "Ubuntu Mono",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "qed8y",
+                              "name": "walletCopy",
+                              "width": 20,
+                              "height": 20,
+                              "iconFontName": "copy",
+                              "iconFontFamily": "lucide",
+                              "fill": "#374151"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "2scJT",
+                          "name": "explorerLink",
+                          "fill": "$ea-magenta",
+                          "textGrowth": "fixed-width",
+                          "width": 333.9049822400627,
+                          "content": "View on Blockchain Explorer →",
+                          "fontFamily": "Ubuntu",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -7494,446 +7557,169 @@
           "id": "0d6MT",
           "name": "UEI Section",
           "width": 1737,
-          "height": 1800,
+          "height": 1817,
           "fill": "$ea-white",
-          "layout": "none",
+          "layout": "vertical",
+          "gap": 36,
+          "justifyContent": "end",
+          "alignItems": "center",
           "children": [
             {
-              "type": "text",
-              "id": "eqfDr",
-              "x": 80,
-              "y": 64,
-              "name": "title",
-              "fill": "$ea-magenta",
-              "textGrowth": "fixed-width",
-              "width": 1577,
-              "content": "Universal Earned Income",
-              "textAlign": "center",
-              "fontFamily": "Ubuntu Mono",
-              "fontSize": 36,
-              "fontWeight": "700"
-            },
-            {
-              "type": "text",
-              "id": "vqUeX",
-              "x": 369,
-              "y": 120,
-              "name": "subtitle",
-              "fill": "$ea-dark-navy",
-              "textGrowth": "fixed-width",
-              "width": 1000,
-              "content": "Get Paid to Build Startup Communities",
-              "textAlign": "center",
-              "fontFamily": "Ubuntu Mono",
-              "fontSize": 24,
-              "fontWeight": "700"
-            },
-            {
-              "type": "text",
-              "id": "N03OB",
-              "x": 369,
-              "y": 172,
-              "name": "p1",
-              "fill": "#374151",
-              "textGrowth": "fixed-width",
-              "width": 1000,
-              "content": "In a future of hyper automation and AI, the most meaningful human effort will be what separates us from machines: our humanity and creativity.",
-              "lineHeight": 1.6,
-              "fontFamily": "Ubuntu",
-              "fontSize": 16,
-              "fontWeight": "normal"
-            },
-            {
-              "type": "text",
-              "id": "fvRZr",
-              "x": 369,
-              "y": 230,
-              "name": "p2",
-              "fill": "#374151",
-              "textGrowth": "fixed-width",
-              "width": 1000,
-              "content": "That's why e-America is launching a new Universal Earned Income program that pays e-Americans to build startup communities. This is a new experiment. We're starting modestly, but we hope to grow the program as it gains traction.",
-              "lineHeight": 1.6,
-              "fontFamily": "Ubuntu",
-              "fontSize": 16,
-              "fontWeight": "normal"
-            },
-            {
-              "type": "text",
-              "id": "otedq",
-              "x": 369,
-              "y": 310,
-              "name": "s1",
-              "fill": "#374151",
-              "textGrowth": "fixed-width",
-              "width": 1000,
-              "content": "1. Create an innovation-related event on Luma and add e-America as a host so it appears on the e-America global calendar. (Add as a host by adding e-America's email hello@e-america.org)",
-              "lineHeight": 1.6,
-              "fontFamily": "Ubuntu",
-              "fontSize": 16,
-              "fontWeight": "normal"
-            },
-            {
-              "type": "text",
-              "id": "Kxned",
-              "x": 369,
-              "y": 386,
-              "name": "s2",
-              "fill": "#374151",
-              "textGrowth": "fixed-width",
-              "width": 1000,
-              "content": "2. Bring together five or more entrepreneurial-minded citizens in person for any real-world activity: coffee, walks, talks, sports, hiking, dancing, or anything you choose.",
-              "lineHeight": 1.6,
-              "fontFamily": "Ubuntu",
-              "fontSize": 16,
-              "fontWeight": "normal"
-            },
-            {
-              "type": "text",
-              "id": "Zphh1",
-              "x": 369,
-              "y": 462,
-              "name": "s3",
-              "fill": "#374151",
-              "textGrowth": "fixed-width",
-              "width": 1000,
-              "content": "3. Send us photos from the event or post them on social media and tag e-America.",
-              "lineHeight": 1.6,
-              "fontFamily": "Ubuntu",
-              "fontSize": 16,
-              "fontWeight": "normal"
-            },
-            {
-              "type": "text",
-              "id": "hpKm1",
-              "x": 369,
-              "y": 510,
-              "name": "s4",
-              "fill": "#374151",
-              "textGrowth": "fixed-width",
-              "width": 1000,
-              "content": "4. Get paid 100 USDT for each event you host. (To start, we'll limit this to one event per person per month.)",
-              "lineHeight": 1.6,
-              "fontFamily": "Ubuntu",
-              "fontSize": 16,
-              "fontWeight": "normal"
-            },
-            {
-              "type": "text",
-              "id": "E53vY",
-              "x": 369,
-              "y": 568,
-              "name": "contact",
-              "fill": "#374151",
-              "textGrowth": "fixed-width",
-              "width": 1000,
-              "content": "Email uei@e-america.org to coordinate hosting or to ask any questions.",
-              "lineHeight": 1.6,
-              "fontFamily": "Ubuntu",
-              "fontSize": 16,
-              "fontWeight": "normal"
-            },
-            {
-              "type": "text",
-              "id": "oHvH4",
-              "x": 369,
-              "y": 618,
-              "name": "quote",
-              "fill": "#374151",
-              "textGrowth": "fixed-width",
-              "width": 1000,
-              "content": "The future of humanity is our humanity. Let's build startup communities. And get paid for it.",
-              "lineHeight": 1.6,
-              "textAlign": "center",
-              "fontFamily": "Ubuntu",
-              "fontSize": 16,
-              "fontWeight": "normal",
-              "fontStyle": "italic"
-            },
-            {
-              "type": "text",
-              "id": "SiB86",
-              "x": 80,
-              "y": 680,
-              "name": "evtHeading",
-              "fill": "$ea-dark-navy",
-              "textGrowth": "fixed-width",
-              "width": 1577,
-              "content": "Upcoming Events",
-              "textAlign": "center",
-              "fontFamily": "Ubuntu Mono",
-              "fontSize": 24,
-              "fontWeight": "700"
-            },
-            {
-              "type": "frame",
-              "id": "xQ2Ke",
-              "x": 80,
-              "y": 730,
-              "name": "calWrap",
-              "width": 1577,
-              "height": 420,
-              "fill": "#F9FAFB",
-              "cornerRadius": 12,
-              "stroke": {
-                "thickness": 1,
-                "fill": "#E5E7EB"
-              },
-              "layout": "none",
+              "type": "group",
+              "id": "H5356",
+              "layout": "vertical",
+              "gap": 24,
+              "justifyContent": "center",
+              "alignItems": "center",
               "children": [
                 {
-                  "type": "ellipse",
-                  "id": "nSJtZ",
-                  "x": 40,
-                  "y": 42,
-                  "name": "todayDot",
-                  "fill": "#6B7280",
-                  "width": 8,
-                  "height": 8
-                },
-                {
                   "type": "text",
-                  "id": "AhnHq",
-                  "x": 60,
-                  "y": 35,
-                  "name": "todayTxt",
-                  "fill": "#111827",
-                  "content": "Today",
-                  "fontFamily": "Ubuntu",
-                  "fontSize": 16,
+                  "id": "eqfDr",
+                  "name": "title",
+                  "fill": "$ea-magenta",
+                  "textGrowth": "fixed-width",
+                  "width": 1393,
+                  "content": "Universal Earned Income",
+                  "textAlign": "center",
+                  "fontFamily": "Ubuntu Mono",
+                  "fontSize": 36,
                   "fontWeight": "700"
                 },
                 {
                   "type": "text",
-                  "id": "kfLSz",
-                  "x": 112,
-                  "y": 35,
-                  "name": "todayDay",
-                  "fill": "#9CA3AF",
-                  "content": "Tuesday",
+                  "id": "vqUeX",
+                  "name": "subtitle",
+                  "fill": "$ea-dark-navy",
+                  "textGrowth": "fixed-width",
+                  "width": 883,
+                  "content": "Get Paid to Build Startup Communities",
+                  "textAlign": "center",
+                  "fontFamily": "Ubuntu Mono",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "id": "Thxid",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "N03OB",
+                  "name": "p1",
+                  "fill": "#374151",
+                  "textGrowth": "fixed-width",
+                  "width": 883.0000000000005,
+                  "content": "In a future of hyper automation and AI, the most meaningful human effort will be what separates us from machines: our humanity and creativity.",
+                  "lineHeight": 1.6,
                   "fontFamily": "Ubuntu",
                   "fontSize": 16,
                   "fontWeight": "normal"
                 },
                 {
-                  "type": "frame",
-                  "id": "h8qnb",
-                  "x": 40,
-                  "y": 70,
-                  "name": "evt1Card",
-                  "width": 1497,
-                  "height": 140,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": {
-                    "thickness": 1,
-                    "fill": "#E5E7EB"
-                  },
-                  "layout": "none",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "RGZQ3",
-                      "x": 20,
-                      "y": 16,
-                      "name": "evt1Time",
-                      "fill": "#374151",
-                      "content": "6:30 PM",
-                      "fontFamily": "Ubuntu",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "2GJkb",
-                      "x": 82,
-                      "y": 16,
-                      "name": "evt1Dot",
-                      "fill": "#374151",
-                      "content": "·",
-                      "fontFamily": "Ubuntu",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "wp1tB",
-                      "x": 96,
-                      "y": 16,
-                      "name": "evt1Gmt",
-                      "fill": "#EF4444",
-                      "content": "10:30 AM GMT+3",
-                      "fontFamily": "Ubuntu",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "bpyHd",
-                      "x": 20,
-                      "y": 40,
-                      "name": "evt1Title",
-                      "fill": "#111827",
-                      "content": "'Techies' Income in the AI Era – Builders Walk",
-                      "fontFamily": "Ubuntu",
-                      "fontSize": 18,
-                      "fontWeight": "700"
-                    },
-                    {
-                      "type": "text",
-                      "id": "Sy1jl",
-                      "x": 20,
-                      "y": 68,
-                      "name": "evt1Host",
-                      "fill": "#9CA3AF",
-                      "content": "By Emmanuel Maina &amp; e-America",
-                      "fontFamily": "Ubuntu",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "wHy2q",
-                      "x": 20,
-                      "y": 90,
-                      "name": "evt1Loc",
-                      "fill": "#9CA3AF",
-                      "content": "Karura Forest",
-                      "fontFamily": "Ubuntu",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Epuwe",
-                      "x": 1377,
-                      "y": 20,
-                      "name": "evt1Img",
-                      "width": 100,
-                      "height": 100,
-                      "fill": {
-                        "type": "image",
-                        "enabled": true,
-                        "url": "./images/generated-1773089993302.png",
-                        "mode": "fill"
-                      },
-                      "cornerRadius": 8
-                    }
-                  ]
-                },
-                {
-                  "type": "ellipse",
-                  "id": "sL8rF",
-                  "x": 40,
-                  "y": 232,
-                  "name": "mar21Dot",
-                  "fill": "#6B7280",
-                  "width": 8,
-                  "height": 8
-                },
-                {
                   "type": "text",
-                  "id": "tyE6S",
-                  "x": 60,
-                  "y": 225,
-                  "name": "mar21Txt",
-                  "fill": "#111827",
-                  "content": "Mar 21",
-                  "fontFamily": "Ubuntu",
-                  "fontSize": 16,
-                  "fontWeight": "700"
-                },
-                {
-                  "type": "text",
-                  "id": "gk6vi",
-                  "x": 120,
-                  "y": 225,
-                  "name": "mar21Day",
-                  "fill": "#9CA3AF",
-                  "content": "Saturday",
+                  "id": "fvRZr",
+                  "name": "p2",
+                  "fill": "#374151",
+                  "textGrowth": "fixed-width",
+                  "width": 883.0000000000005,
+                  "content": "That's why e-America is launching a new Universal Earned Income program that pays e-Americans to build startup communities. This is a new experiment. We're starting modestly, but we hope to grow the program as it gains traction.",
+                  "lineHeight": 1.6,
                   "fontFamily": "Ubuntu",
                   "fontSize": 16,
                   "fontWeight": "normal"
                 },
                 {
-                  "type": "frame",
-                  "id": "iyDdh",
-                  "x": 40,
-                  "y": 260,
-                  "name": "evt2Card",
-                  "width": 1497,
-                  "height": 120,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "stroke": {
-                    "thickness": 1,
-                    "fill": "#E5E7EB"
-                  },
-                  "layout": "none",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "LJUuu",
-                      "x": 20,
-                      "y": 16,
-                      "name": "evt2Time",
-                      "fill": "#374151",
-                      "content": "3:00 AM",
-                      "fontFamily": "Ubuntu",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "3EBWw",
-                      "x": 20,
-                      "y": 40,
-                      "name": "evt2Title",
-                      "fill": "#111827",
-                      "content": "Meet And Greet",
-                      "fontFamily": "Ubuntu",
-                      "fontSize": 18,
-                      "fontWeight": "700"
-                    },
-                    {
-                      "type": "text",
-                      "id": "sVco1",
-                      "x": 20,
-                      "y": 68,
-                      "name": "evt2Host",
-                      "fill": "#9CA3AF",
-                      "content": "By Smahmud3d Shariar",
-                      "fontFamily": "Ubuntu",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "17XxK",
-                      "x": 1377,
-                      "y": 20,
-                      "name": "evt2Img",
-                      "width": 100,
-                      "height": 80,
-                      "fill": {
-                        "type": "image",
-                        "enabled": true,
-                        "url": "./images/generated-1773090029812.png",
-                        "mode": "fill"
-                      },
-                      "cornerRadius": 8
-                    }
-                  ]
+                  "type": "text",
+                  "id": "otedq",
+                  "name": "s1",
+                  "fill": "#374151",
+                  "textGrowth": "fixed-width",
+                  "width": 883.0000000000005,
+                  "content": "1. Create an innovation-related event on Luma and add e-America as a host so it appears on the e-America global calendar. (Add as a host by adding e-America's email hello@e-america.org)",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Ubuntu",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Kxned",
+                  "name": "s2",
+                  "fill": "#374151",
+                  "textGrowth": "fixed-width",
+                  "width": 883.0000000000005,
+                  "content": "2. Bring together five or more entrepreneurial-minded citizens in person for any real-world activity: coffee, walks, talks, sports, hiking, dancing, or anything you choose.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Ubuntu",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Zphh1",
+                  "name": "s3",
+                  "fill": "#374151",
+                  "textGrowth": "fixed-width",
+                  "width": 883.0000000000005,
+                  "content": "3. Send us photos from the event or post them on social media and tag e-America.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Ubuntu",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "hpKm1",
+                  "name": "s4",
+                  "fill": "#374151",
+                  "textGrowth": "fixed-width",
+                  "width": 883.0000000000005,
+                  "content": "4. Get paid 100 USDT for each event you host. (To start, we'll limit this to one event per person per month.)",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Ubuntu",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "E53vY",
+                  "name": "contact",
+                  "fill": "#374151",
+                  "textGrowth": "fixed-width",
+                  "width": 883.3227647431836,
+                  "content": "Email uei@e-america.org to coordinate hosting or to ask any questions.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Ubuntu",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "oHvH4",
+                  "name": "quote",
+                  "fill": "#374151",
+                  "textGrowth": "fixed-width",
+                  "width": 865.0000000000005,
+                  "content": "The future of humanity is our humanity. Let's build startup communities. And get paid for it.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Ubuntu",
+                  "fontSize": 16,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
                 }
               ]
             },
             {
               "type": "frame",
               "id": "QJW6l",
-              "x": 80,
-              "y": 1190,
               "name": "balCard",
-              "width": 1577,
+              "width": 1528,
               "height": 140,
               "fill": "$ea-light-gray",
               "cornerRadius": 16,
@@ -7945,7 +7731,7 @@
                   "x": 40,
                   "y": 24,
                   "name": "balTitle",
-                  "fill": "$ea-dark-navy",
+                  "fill": "$ea-magenta",
                   "content": "Your UEI Balance",
                   "fontFamily": "Ubuntu",
                   "fontSize": 20,
@@ -7969,12 +7755,12 @@
                 {
                   "type": "text",
                   "id": "dDluJ",
-                  "x": 20,
+                  "x": 96.5,
                   "y": 106,
                   "name": "c1Lbl",
-                  "fill": "#6B7280",
+                  "fill": "$ea-magenta",
                   "textGrowth": "fixed-width",
-                  "width": 500,
+                  "width": 347,
                   "content": "Points Earned",
                   "textAlign": "center",
                   "fontFamily": "Ubuntu",
@@ -7999,12 +7785,12 @@
                 {
                   "type": "text",
                   "id": "hTFS8",
-                  "x": 540,
+                  "x": 642,
                   "y": 106,
                   "name": "c2Lbl",
-                  "fill": "#6B7280",
+                  "fill": "$ea-magenta",
                   "textGrowth": "fixed-width",
-                  "width": 500,
+                  "width": 296,
                   "content": "Total Paid",
                   "textAlign": "center",
                   "fontFamily": "Ubuntu",
@@ -8029,12 +7815,12 @@
                 {
                   "type": "text",
                   "id": "Zfy4o",
-                  "x": 1060,
+                  "x": 1197,
                   "y": 106,
                   "name": "c3Lbl",
-                  "fill": "#6B7280",
+                  "fill": "$ea-magenta",
                   "textGrowth": "fixed-width",
-                  "width": 497,
+                  "width": 223,
                   "content": "Balance Owed",
                   "textAlign": "center",
                   "fontFamily": "Ubuntu",
@@ -8044,93 +7830,171 @@
               ]
             },
             {
-              "type": "frame",
-              "id": "m7Ehs",
-              "x": 80,
-              "y": 1370,
-              "name": "actCard",
-              "width": 749,
-              "height": 180,
-              "fill": "$ea-light-gray",
-              "cornerRadius": 16,
-              "layout": "none",
+              "type": "group",
+              "id": "Tg4EX",
+              "layout": "horizontal",
+              "gap": 36,
               "children": [
                 {
-                  "type": "text",
-                  "id": "f2USM",
-                  "x": 32,
-                  "y": 28,
-                  "name": "actTitle",
-                  "fill": "$ea-dark-navy",
-                  "content": "Activity Log",
-                  "fontFamily": "Ubuntu",
-                  "fontSize": 20,
-                  "fontWeight": "700"
-                },
-                {
-                  "type": "text",
-                  "id": "ekYsI",
-                  "x": 32,
-                  "y": 72,
-                  "name": "actEvtName",
-                  "fill": "#111827",
-                  "content": "Hosted Event",
-                  "fontFamily": "Ubuntu",
-                  "fontSize": 16,
-                  "fontWeight": "700"
-                },
-                {
-                  "type": "text",
-                  "id": "odBA8",
-                  "x": 32,
-                  "y": 96,
-                  "name": "actEvtDate",
-                  "fill": "#6B7280",
-                  "content": "Mar 02, 2026",
-                  "fontFamily": "Ubuntu",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "je2hl",
-                  "x": 32,
-                  "y": 118,
-                  "name": "actEvtDesc",
-                  "fill": "#6B7280",
-                  "content": "Test event — Singapore meetup, March 2026",
-                  "fontFamily": "Ubuntu",
-                  "fontSize": 14,
-                  "fontWeight": "normal",
-                  "fontStyle": "italic"
-                },
-                {
                   "type": "frame",
-                  "id": "odicP",
-                  "x": 639,
-                  "y": 72,
-                  "name": "actPtsBg",
-                  "width": 80,
-                  "height": 30,
-                  "fill": "#F3F4F6",
-                  "cornerRadius": 20,
-                  "stroke": {
-                    "thickness": 1,
-                    "fill": "#E5E7EB"
-                  },
+                  "id": "m7Ehs",
+                  "name": "actCard",
+                  "width": 744.0163620010208,
+                  "height": 180,
+                  "fill": "$ea-light-gray",
+                  "cornerRadius": 16,
                   "layout": "none",
                   "children": [
                     {
                       "type": "text",
-                      "id": "eams8",
-                      "x": 12,
-                      "y": 7,
-                      "name": "actPtsText",
-                      "fill": "#374151",
-                      "content": "100 pts",
+                      "id": "f2USM",
+                      "x": 32,
+                      "y": 28,
+                      "name": "actTitle",
+                      "fill": "$ea-magenta",
+                      "content": "Activity Log",
+                      "fontFamily": "Ubuntu",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ekYsI",
+                      "x": 32,
+                      "y": 72,
+                      "name": "actEvtName",
+                      "fill": "#111827",
+                      "content": "Hosted Event",
+                      "fontFamily": "Ubuntu",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "odBA8",
+                      "x": 32,
+                      "y": 96,
+                      "name": "actEvtDate",
+                      "fill": "#6B7280",
+                      "content": "Mar 02, 2026",
+                      "fontFamily": "Ubuntu",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "je2hl",
+                      "x": 32,
+                      "y": 118,
+                      "name": "actEvtDesc",
+                      "fill": "#6B7280",
+                      "content": "Test event — Singapore meetup, March 2026",
+                      "fontFamily": "Ubuntu",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "odicP",
+                      "x": 639,
+                      "y": 72,
+                      "name": "actPtsBg",
+                      "width": 80,
+                      "height": 30,
+                      "fill": "$ea-magenta",
+                      "cornerRadius": 20,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#E5E7EB"
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "eams8",
+                          "x": 16.516362001020752,
+                          "y": 8,
+                          "name": "actPtsText",
+                          "fill": "#ffffffff",
+                          "content": "100 pts",
+                          "fontFamily": "Ubuntu Mono",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "z31UC",
+                  "name": "payCard",
+                  "width": 744.0163620010208,
+                  "height": 180,
+                  "fill": "$ea-light-gray",
+                  "cornerRadius": 16,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uq3ue",
+                      "x": 32,
+                      "y": 28,
+                      "name": "payTitle",
+                      "fill": "$ea-magenta",
+                      "content": "Payment History",
+                      "fontFamily": "Ubuntu",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "c2pMv",
+                      "x": 32,
+                      "y": 72,
+                      "name": "payAmt",
+                      "fill": "#111827",
+                      "content": "$100.00",
+                      "fontFamily": "Ubuntu",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HqVfi",
+                      "x": 32,
+                      "y": 96,
+                      "name": "payDate",
+                      "fill": "#6B7280",
+                      "content": "Mar 15, 2026",
+                      "fontFamily": "Ubuntu",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dA97x",
+                      "x": 32,
+                      "y": 118,
+                      "name": "payRef",
+                      "fill": "#6B7280",
+                      "content": "test-txn-001",
                       "fontFamily": "Ubuntu Mono",
                       "fontSize": 13,
-                      "fontWeight": "600"
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UaydI",
+                      "x": 659,
+                      "y": 72,
+                      "name": "payMethod",
+                      "fill": "$ea-magenta",
+                      "content": "via crypto",
+                      "fontFamily": "Ubuntu",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -8138,137 +8002,708 @@
             },
             {
               "type": "frame",
-              "id": "z31UC",
-              "x": 908,
-              "y": 1370,
-              "name": "payCard",
-              "width": 749,
-              "height": 180,
-              "fill": "$ea-light-gray",
-              "cornerRadius": 16,
-              "layout": "none",
-              "children": [
+              "id": "2gOFF",
+              "name": "Events Banner",
+              "width": "fill_container",
+              "fill": [
                 {
-                  "type": "text",
-                  "id": "uq3ue",
-                  "x": 32,
-                  "y": 28,
-                  "name": "payTitle",
-                  "fill": "$ea-dark-navy",
-                  "content": "Payment History",
-                  "fontFamily": "Ubuntu",
-                  "fontSize": 20,
-                  "fontWeight": "700"
-                },
-                {
-                  "type": "text",
-                  "id": "c2pMv",
-                  "x": 32,
-                  "y": 72,
-                  "name": "payAmt",
-                  "fill": "#111827",
-                  "content": "$100.00",
-                  "fontFamily": "Ubuntu",
-                  "fontSize": 16,
-                  "fontWeight": "700"
-                },
-                {
-                  "type": "text",
-                  "id": "HqVfi",
-                  "x": 32,
-                  "y": 96,
-                  "name": "payDate",
-                  "fill": "#6B7280",
-                  "content": "Mar 15, 2026",
-                  "fontFamily": "Ubuntu",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "dA97x",
-                  "x": 32,
-                  "y": 118,
-                  "name": "payRef",
-                  "fill": "#6B7280",
-                  "content": "test-txn-001",
-                  "fontFamily": "Ubuntu Mono",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "UaydI",
-                  "x": 659,
-                  "y": 72,
-                  "name": "payMethod",
-                  "fill": "#6B7280",
-                  "content": "via crypto",
-                  "fontFamily": "Ubuntu",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "qySUB",
-              "x": 0,
-              "y": 1614,
-              "name": "Dashboard Footer",
-              "width": 1737,
-              "height": 186,
-              "fill": {
-                "type": "gradient",
-                "gradientType": "linear",
-                "enabled": true,
-                "rotation": 180,
-                "size": {
-                  "height": 1
-                },
-                "colors": [
-                  {
-                    "color": "#1C46AD",
-                    "position": 0
+                  "type": "gradient",
+                  "gradientType": "linear",
+                  "enabled": true,
+                  "rotation": 270,
+                  "size": {
+                    "height": 1
                   },
-                  {
-                    "color": "#0C1D47",
-                    "position": 1
-                  }
-                ]
-              },
+                  "colors": [
+                    {
+                      "color": "#122249",
+                      "position": 0.161
+                    },
+                    {
+                      "color": "#da1e3f",
+                      "position": 0.6
+                    }
+                  ]
+                },
+                "#fdfdfde6"
+              ],
               "layout": "vertical",
-              "gap": 12,
               "padding": [
                 48,
                 80
               ],
-              "justifyContent": "center",
               "alignItems": "center",
               "children": [
                 {
-                  "type": "text",
-                  "id": "rM6rl",
-                  "name": "footerSupport",
-                  "fill": "#FFFFFF99",
-                  "content": "Need help? Contact support@e-america.org",
-                  "textAlign": "center",
-                  "fontFamily": "Ubuntu",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "6SwIY",
-                  "name": "footerVersion",
-                  "fill": "#969696",
-                  "content": "Version 1.0.15",
-                  "textAlign": "center",
-                  "fontFamily": "Ubuntu Mono",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
+                  "type": "group",
+                  "id": "wNpue",
+                  "name": "Event-content",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "group",
+                      "id": "gzdx1",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wbpGe",
+                          "name": "evBannerTitle",
+                          "fill": "$ea-magenta",
+                          "textGrowth": "fixed-width-height",
+                          "width": 440.8539289966917,
+                          "height": 75,
+                          "content": "Community Events",
+                          "textAlign": "center",
+                          "fontFamily": "Ubuntu",
+                          "fontSize": 36,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VvG31",
+                          "name": "evBannerSub",
+                          "fill": "#141414ff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 1226.6182304052236,
+                          "height": 32.99796586456776,
+                          "content": "Meetups, workshops, and gatherings hosted by e-Americans around the world",
+                          "textAlign": "center",
+                          "fontFamily": "Ubuntu",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "id": "OPhwQ",
+                      "layout": "horizontal",
+                      "gap": 24,
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "fo1uc",
+                          "name": "Right Column Photos",
+                          "width": 791.6934035339787,
+                          "height": 539,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Pj03M",
+                              "x": 138.97805683344086,
+                              "y": 278.8033930139634,
+                              "name": "Photo 3",
+                              "rotation": -4.017243868570016,
+                              "width": 357,
+                              "height": 229,
+                              "fill": [
+                                "#FFFFFF",
+                                {
+                                  "type": "image",
+                                  "enabled": true,
+                                  "url": "./assets/community/human-interaction-photo-06.jpg",
+                                  "mode": "fill"
+                                }
+                              ],
+                              "cornerRadius": 4,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 10,
+                                "fill": "#FFFFFF"
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "AplsC",
+                              "x": 8,
+                              "y": 46.27974748001702,
+                              "name": "Photo 2",
+                              "rotation": 5,
+                              "width": 421,
+                              "height": 269,
+                              "fill": [
+                                "#FFFFFF",
+                                {
+                                  "type": "image",
+                                  "enabled": true,
+                                  "url": "community-fun.jpg",
+                                  "mode": "fill"
+                                }
+                              ],
+                              "cornerRadius": 4,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 10,
+                                "fill": "#FFFFFF"
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "6VLMk",
+                              "x": 389.3550794554176,
+                              "y": 72.56117403120732,
+                              "name": "Photo 1",
+                              "rotation": -4,
+                              "width": 364,
+                              "height": 236,
+                              "fill": [
+                                "#FFFFFF",
+                                {
+                                  "type": "image",
+                                  "enabled": true,
+                                  "url": "./assets/community/human-interaction-photo-10.jpg",
+                                  "mode": "fill"
+                                }
+                              ],
+                              "cornerRadius": 4,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 10,
+                                "fill": "#FFFFFF"
+                              },
+                              "padding": 10
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "MYnPm",
+                          "name": "Timeline",
+                          "width": 696.1967782547944,
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "lmBK2",
+                              "name": "Today Section",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 12,
+                              "padding": [
+                                0,
+                                0,
+                                24,
+                                0
+                              ],
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "rW6VY",
+                                  "name": "dateRow",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "ellipse",
+                                      "id": "SWd10",
+                                      "name": "bullet",
+                                      "fill": "#1C2B4A",
+                                      "width": 8,
+                                      "height": 8
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "kUzSc",
+                                      "name": "todayText",
+                                      "fill": "#1C2B4A",
+                                      "content": "Today",
+                                      "fontFamily": "Ubuntu",
+                                      "fontSize": 14,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "5x7Nz",
+                                      "name": "tuesdayText",
+                                      "fill": "#8E95A3",
+                                      "content": "Tuesday",
+                                      "fontFamily": "Ubuntu",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "LtxFO",
+                                  "name": "card",
+                                  "width": "fill_container",
+                                  "fill": "#FFFFFF",
+                                  "cornerRadius": 12,
+                                  "padding": 20,
+                                  "justifyContent": "space_between",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "cAR5N",
+                                      "name": "leftContent",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "gap": 6,
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "Pycoy",
+                                          "name": "timeRow2",
+                                          "width": "fill_container",
+                                          "height": 20,
+                                          "layout": "none",
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "uyUXv",
+                                              "x": 0,
+                                              "y": 0,
+                                              "name": "t1new",
+                                              "fill": "#1C2B4A",
+                                              "content": "6:30 PM ·",
+                                              "fontFamily": "Ubuntu",
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "epBNB",
+                                              "x": 58,
+                                              "y": 0,
+                                              "name": "t2new",
+                                              "fill": "#E67E22",
+                                              "content": "10:30 AM GMT+3",
+                                              "fontFamily": "Ubuntu",
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "ZJ3PX",
+                                          "name": "titleText",
+                                          "fill": "#1C2B4A",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Techies' Income in the AI Era – Builders Walk",
+                                          "fontFamily": "Ubuntu",
+                                          "fontSize": 18,
+                                          "fontWeight": "700"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "6Mj59",
+                                          "name": "orgRow",
+                                          "width": "fill_container",
+                                          "gap": 6,
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "ellipse",
+                                              "id": "bv4j1",
+                                              "name": "orgCircle",
+                                              "fill": "#EDEFF4",
+                                              "width": 20,
+                                              "height": 20
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "drgEd",
+                                              "name": "orgEmoji",
+                                              "content": "🌐",
+                                              "fontFamily": "Inter",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "gPlem",
+                                              "name": "orgText",
+                                              "fill": "#8E95A3",
+                                              "content": "By Emmanuel Maina & e-America",
+                                              "fontFamily": "Ubuntu",
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
+                                            },
+                                            {
+                                              "type": "icon_font",
+                                              "id": "5z3rw",
+                                              "name": "flagIcon",
+                                              "width": 14,
+                                              "height": 14,
+                                              "iconFontName": "flag",
+                                              "iconFontFamily": "lucide",
+                                              "fill": "#8E95A3"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "k4O8Y",
+                                          "name": "locRow",
+                                          "width": "fill_container",
+                                          "gap": 6,
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon_font",
+                                              "id": "PLSr3",
+                                              "name": "locIcon",
+                                              "width": 16,
+                                              "height": 16,
+                                              "iconFontName": "map-pin",
+                                              "iconFontFamily": "lucide",
+                                              "fill": "#8E95A3"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "zs5Nl",
+                                              "name": "locText",
+                                              "fill": "#8E95A3",
+                                              "content": "Karura Forest",
+                                              "fontFamily": "Ubuntu",
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "nvJvt",
+                                          "name": "avatarRow",
+                                          "width": 62,
+                                          "height": 20,
+                                          "layout": "none",
+                                          "children": [
+                                            {
+                                              "type": "ellipse",
+                                              "id": "oU4hT",
+                                              "x": 0,
+                                              "y": 0,
+                                              "name": "av1",
+                                              "fill": "#CCD2DE",
+                                              "width": 20,
+                                              "height": 20,
+                                              "stroke": {
+                                                "thickness": 2,
+                                                "fill": "#FFFFFF"
+                                              }
+                                            },
+                                            {
+                                              "type": "ellipse",
+                                              "id": "jWTby",
+                                              "x": 14,
+                                              "y": 0,
+                                              "name": "av2",
+                                              "fill": "#769DD1",
+                                              "width": 20,
+                                              "height": 20,
+                                              "stroke": {
+                                                "thickness": 2,
+                                                "fill": "#FFFFFF"
+                                              }
+                                            },
+                                            {
+                                              "type": "ellipse",
+                                              "id": "F8WTb",
+                                              "x": 28,
+                                              "y": 0,
+                                              "name": "av3",
+                                              "fill": "#DA1E3F",
+                                              "width": 20,
+                                              "height": 20,
+                                              "stroke": {
+                                                "thickness": 2,
+                                                "fill": "#FFFFFF"
+                                              }
+                                            },
+                                            {
+                                              "type": "ellipse",
+                                              "id": "uPYT5",
+                                              "x": 42,
+                                              "y": 0,
+                                              "name": "av4",
+                                              "fill": "#0B1E46",
+                                              "width": 20,
+                                              "height": 20,
+                                              "stroke": {
+                                                "thickness": 2,
+                                                "fill": "#FFFFFF"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "M2nw2",
+                                      "name": "imgFrame",
+                                      "width": 100,
+                                      "height": 100,
+                                      "fill": {
+                                        "type": "image",
+                                        "enabled": true,
+                                        "url": "./images/generated-1773120413317.png",
+                                        "mode": "fill"
+                                      },
+                                      "cornerRadius": 8
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "HHlqs",
+                              "name": "Mar 21 Section",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 12,
+                              "padding": [
+                                0,
+                                0,
+                                24,
+                                0
+                              ],
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "eS1jd",
+                                  "name": "dateRow",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "ellipse",
+                                      "id": "IZ97C",
+                                      "name": "bullet",
+                                      "fill": "#1C2B4A",
+                                      "width": 8,
+                                      "height": 8
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "IZCuU",
+                                      "name": "dateTxt",
+                                      "fill": "#1C2B4A",
+                                      "content": "Mar 21",
+                                      "fontFamily": "Ubuntu",
+                                      "fontSize": 14,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "x8u8S",
+                                      "name": "dayTxt",
+                                      "fill": "#8E95A3",
+                                      "content": "Saturday",
+                                      "fontFamily": "Ubuntu",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "YzA2x",
+                                  "name": "card",
+                                  "width": "fill_container",
+                                  "fill": "#FFFFFF",
+                                  "cornerRadius": 12,
+                                  "padding": 20,
+                                  "justifyContent": "space_between",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "zaSZZ",
+                                      "name": "leftContent",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "gap": 6,
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "yFqza",
+                                          "name": "timeTxt",
+                                          "fill": "#8E95A3",
+                                          "content": "3:00 AM",
+                                          "fontFamily": "Ubuntu",
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "p1Ie6",
+                                          "name": "titleTxt",
+                                          "fill": "#1C2B4A",
+                                          "content": "Meet And Greet",
+                                          "fontFamily": "Ubuntu",
+                                          "fontSize": 18,
+                                          "fontWeight": "700"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "jW1Us",
+                                          "name": "orgRow",
+                                          "gap": 6,
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "ellipse",
+                                              "id": "1nNXL",
+                                              "name": "orgCircle",
+                                              "fill": "#F59E0B",
+                                              "width": 20,
+                                              "height": 20
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "WSQPC",
+                                              "name": "orgTxt",
+                                              "fill": "#8E95A3",
+                                              "content": "By Smahmud3d Shariar",
+                                              "fontFamily": "Ubuntu",
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "W6y6m",
+                                          "name": "platRow",
+                                          "gap": 6,
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon_font",
+                                              "id": "K2M32",
+                                              "name": "vidIcon",
+                                              "width": 16,
+                                              "height": 16,
+                                              "iconFontName": "video",
+                                              "iconFontFamily": "lucide",
+                                              "fill": "#8E95A3"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "IuQHK",
+                                              "name": "platTxt",
+                                              "fill": "#8E95A3",
+                                              "content": "Google Meet",
+                                              "fontFamily": "Ubuntu",
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "rnKzQ",
+                                      "name": "imgFrame",
+                                      "width": 100,
+                                      "height": 100,
+                                      "fill": {
+                                        "type": "image",
+                                        "enabled": true,
+                                        "url": "./images/generated-1773120409986.png",
+                                        "mode": "fill"
+                                      },
+                                      "cornerRadius": 8
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "g4gXm",
+                              "name": "link",
+                              "opacity": 0.7,
+                              "fill": "$ea-magenta",
+                              "textGrowth": "fixed-width-height",
+                              "width": 225,
+                              "height": 24,
+                              "content": "Create Your Event Now  →",
+                              "fontFamily": "Ubuntu",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "qySUB",
+          "name": "Dashboard Footer",
+          "width": 1737,
+          "height": 186,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 180,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#1C46AD",
+                "position": 0
+              },
+              {
+                "color": "#0C1D47",
+                "position": 1
+              }
+            ]
+          },
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            48,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "rM6rl",
+              "name": "footerSupport",
+              "fill": "#FFFFFF99",
+              "content": "Need help? Contact support@e-america.org",
+              "textAlign": "center",
+              "fontFamily": "Ubuntu",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "6SwIY",
+              "name": "footerVersion",
+              "fill": "#969696",
+              "content": "Version 1.0.15",
+              "textAlign": "center",
+              "fontFamily": "Ubuntu Mono",
+              "fontSize": 14,
+              "fontWeight": "normal"
             }
           ]
         }
@@ -13102,6 +13537,480 @@
       "fill": "#CCCCCC",
       "width": 105,
       "height": 71
+    },
+    {
+      "type": "frame",
+      "id": "C9yzv",
+      "x": 3200,
+      "y": -4156,
+      "name": "hero_archived",
+      "width": "fill_container(1737)",
+      "height": 854,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "m48tr",
+          "name": "Hero Wrapper",
+          "width": "fill_container",
+          "height": 861,
+          "fill": [
+            {
+              "type": "image",
+              "enabled": true,
+              "url": "./assets/hero-background.png",
+              "mode": "fill"
+            },
+            {
+              "type": "gradient",
+              "gradientType": "linear",
+              "enabled": true,
+              "rotation": 180,
+              "size": {
+                "height": 1
+              },
+              "colors": [
+                {
+                  "color": "#0B1E46",
+                  "position": 0
+                },
+                {
+                  "color": "#081738e6",
+                  "position": 0.16
+                },
+                {
+                  "color": "#04102ad1",
+                  "position": 1
+                }
+              ]
+            }
+          ],
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ThuTw",
+              "name": "Nav Container",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                32,
+                80
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xUIYQ",
+                  "name": "Nav Row 1",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Ag8ro",
+                      "name": "Logo",
+                      "width": 231,
+                      "height": 77,
+                      "fill": [
+                        "#0B1E46",
+                        {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "./assets/logo-new.png.png",
+                          "mode": "fit"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Jt3at",
+                      "name": "Nav Buttons",
+                      "gap": 24,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "uoeqD",
+                          "name": "Apply Button",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 1000,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#122249"
+                          },
+                          "padding": [
+                            16,
+                            36
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ZyjCy",
+                              "name": "applyText",
+                              "fill": {
+                                "type": "gradient",
+                                "gradientType": "linear",
+                                "enabled": true,
+                                "rotation": 85,
+                                "size": {
+                                  "height": 1
+                                },
+                                "colors": [
+                                  {
+                                    "color": "#0B1E46",
+                                    "position": 0.17
+                                  },
+                                  {
+                                    "color": "#896580",
+                                    "position": 0.57
+                                  },
+                                  {
+                                    "color": "#BF8398",
+                                    "position": 0.7
+                                  },
+                                  {
+                                    "color": "#DA1E3F",
+                                    "position": 1.07
+                                  }
+                                ]
+                              },
+                              "content": "Apply For Citizenship",
+                              "fontFamily": "Ubuntu Mono",
+                              "fontSize": 22,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Ulbju",
+                          "name": "Login Button",
+                          "fill": "#DA1E3F",
+                          "cornerRadius": 1000,
+                          "padding": [
+                            16,
+                            36
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "uCR5d",
+                              "name": "loginText",
+                              "fill": "#FFFFFF",
+                              "content": "Citizen Login",
+                              "fontFamily": "Ubuntu Mono",
+                              "fontSize": 22,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "E4OQ2",
+                  "name": "Nav Row 2",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bzn69",
+                      "name": "link1",
+                      "fill": "#FFFFFF",
+                      "content": "About Us",
+                      "fontFamily": "Ubuntu Mono",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cidLY",
+                      "name": "link2",
+                      "fill": "#B7B7B7",
+                      "content": "e-Services",
+                      "fontFamily": "Ubuntu Mono",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KPYiH",
+                      "name": "link3",
+                      "fill": "#B7B7B7",
+                      "content": "Universal Income",
+                      "fontFamily": "Ubuntu Mono",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ebbg9",
+                      "name": "link4",
+                      "fill": "#B7B7B7",
+                      "content": "e-Passport",
+                      "fontFamily": "Ubuntu Mono",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aS4bL",
+                      "name": "link5",
+                      "fill": "#B7B7B7",
+                      "content": "e-Treasury",
+                      "fontFamily": "Ubuntu Mono",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mLm8T",
+                      "name": "link6",
+                      "fill": "#B7B7B7",
+                      "content": "Mission",
+                      "fontFamily": "Ubuntu Mono",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TPMKW",
+                      "name": "link7",
+                      "fill": "#B7B7B7",
+                      "content": "Constitution",
+                      "fontFamily": "Ubuntu Mono",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "g8jsp",
+              "name": "Hero Content",
+              "width": "fill_container",
+              "height": "fill_container",
+              "gap": 60,
+              "padding": [
+                0,
+                0,
+                80,
+                0
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "pN73m",
+                  "name": "Frame 48",
+                  "layout": "vertical",
+                  "gap": 42,
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "r2xfG",
+                      "name": "Text Group",
+                      "layout": "vertical",
+                      "gap": 48,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Eyx7q",
+                          "name": "subtitle",
+                          "fill": "#FFFFFF",
+                          "content": "America's entrepreneurial spirit, borderless.",
+                          "fontFamily": "Ubuntu",
+                          "fontSize": 36,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Hybsq",
+                          "name": "title",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": 849,
+                          "content": "America\nfor entrepreneurs.|",
+                          "lineHeight": 1.1,
+                          "fontFamily": "Ubuntu Mono",
+                          "fontSize": 80,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OyZ6U",
+                      "name": "Explore Button",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 1000,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#122249"
+                      },
+                      "gap": 10,
+                      "padding": [
+                        16,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "oOWHA",
+                          "name": "exploreText",
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 85,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#0B1E46",
+                                "position": 0.17
+                              },
+                              {
+                                "color": "#896580",
+                                "position": 0.57
+                              },
+                              {
+                                "color": "#BF8398",
+                                "position": 0.7
+                              },
+                              {
+                                "color": "#DA1E3F",
+                                "position": 1.07
+                              }
+                            ]
+                          },
+                          "content": "Explore More",
+                          "fontFamily": "Ubuntu Mono",
+                          "fontSize": 22,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PBq4g",
+                          "name": "Arrow Icon",
+                          "width": 24,
+                          "height": 24,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "./assets/arrow-icon.png",
+                            "mode": "fit"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EsLcq",
+                  "name": "Right Column Photos",
+                  "width": 631,
+                  "height": 598,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "HsrtZ",
+                      "x": 173.6254790273042,
+                      "y": 321.5,
+                      "name": "Photo 3",
+                      "rotation": -4.017243868570016,
+                      "width": 426,
+                      "height": 273,
+                      "fill": [
+                        "#FFFFFF",
+                        {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "./assets/community/human-interaction-photo-08.jpg",
+                          "mode": "fill"
+                        }
+                      ],
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 10,
+                        "fill": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "B0Ey2",
+                      "x": 83.5,
+                      "y": 132.9953457952879,
+                      "name": "Photo 2",
+                      "rotation": 5,
+                      "width": 304,
+                      "height": 221,
+                      "fill": [
+                        "#FFFFFF",
+                        {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "./assets/digital-experiment-1.png",
+                          "mode": "fill"
+                        }
+                      ],
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 10,
+                        "fill": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "0s4J2",
+                      "x": 395.05522201593703,
+                      "y": 83.5,
+                      "name": "Photo 1",
+                      "rotation": -4,
+                      "width": 381,
+                      "height": 266,
+                      "fill": [
+                        "#FFFFFF",
+                        {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "./assets/community/human-interaction-photo-01.jpg",
+                          "mode": "fill"
+                        }
+                      ],
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 10,
+                        "fill": "#FFFFFF"
+                      },
+                      "padding": 10
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "variables": {
